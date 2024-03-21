@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+    background-color: black;
+    margin: 1;
+    padding: 1;
+    box-sizing: border-box;
+}
+
+
+.logo-home {
+    position: relative;
+    background-color: transparent;
+    right: 10px;
+    bottom: 750px;
+}
+
+.logo-bio {
+    position: relative;
+    background-color: transparent;
+    right: 10px;
+    bottom: 360px;
+}
+
+.logo-musica {
+    position: relative;
+    background-color: transparent;
+    right: 10px;
+    bottom: 360px;
+}
+
+.logo-video {
+    position: relative;
+    background-color: transparent;
+    right: 10px;
+    bottom: 360px;
+}
+
+.logo-fotos {
+    position: relative;
+    background-color: transparent;
+    right: 10px;
+    bottom: 360px;
+}
+
+.logo-clases {
+    position: relative;
+    background-color: transparent;
+    right: 10px;
+    bottom: 360px;
+}
+
+
+.portada-principal {
+
+    background-size: auto;
+    background-position: 100%;
+    background-repeat: no-repeat;
+
+}
+
+.portada-bio {
+
+    align-items: center;
+    background-size: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portada-musica {
+
+    align-items: center;
+    background-size: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portada-videos {
+    align-items: center;
+    background-size: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portada-fotos {
+    align-items: center;
+    background-size: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.portada-clases {
+    align-items: center;
+    background-size: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.navBar {
+    position: relative;
+    background-color: transparent;
+    left: 300px;
+    bottom: 260px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-bio {
+    position: relative;
+    background-color: transparent;
+    left: 330px;
+    bottom: 350px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-musica {
+    position: relative;
+    background-color: transparent;
+    left: 330px;
+    bottom: 350px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-video {
+    position: relative;
+    background-color: transparent;
+    left: 330px;
+    bottom: 350px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-fotos {
+    position: relative;
+    background-color: transparent;
+    left: 330px;
+    bottom: 350px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-clases {
+    position: relative;
+    background-color: transparent;
+    left: 330px;
+    bottom: 350px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-formulario {
+    position: relative;
+    background-color: transparent;
+    left: 330px;
+    bottom: 5px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.navBar-bio li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.navBar-musica li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.navBar-video li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.navBar-fotos li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.navBar-clases li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.navBar-formulario li a {
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.section-principal-musica iframe {
+    width: 40%;
+    height: 180px;
+    position: relative;
+    top: 1px;
+    right: 0px;
+
+}
+
+.section-principal-musica p {
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 40%;
+    height: 180px;
+    position: relative;
+    top: 1px;
+    right: 0px;
+
+}
+
+.boton {
+    background-color: rgba(255, 0, 0, 0.975);
+    font-size: 40px;
+    border: 8px solid red;
+    border-radius: 20px;
+    color: white;
+    font-family: "K2D", sans-serif;
+    position: relative;
+    left: 400px;
+    bottom: 180px;
+
+}
+
+.section-pie-de-pagina-home {
+    bottom: 10px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-bio {
+    background-image: url("../assets/img/pie-de-pagina.png");
+    width: 100%;
+    height: 28.125rem;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-musica {
+    background-image: url("../assets/img/pie-de-pagina.png");
+    width: 100%;
+    height: 28.125rem;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-videos {
+    background-image: url("../assets/img/pie-de-pagina.png");
+    width: 100%;
+    height: 28.125rem;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-fotos {
+    background-image: url("../assets/img/pie-de-pagina.png");
+    width: 100%;
+    height: 28.125rem;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-clases {
+    background-image: url("../assets/img/pie-de-pagina.png");
+    width: 100%;
+    height: 28.125rem;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-formulario {
+    background-image: url("../assets/img/pie-de-pagina.png");
+    width: 100%;
+    height: 28.125rem;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+
+
+
+.instagram {
+    left: 40px;
+    top: 910px;
+    position: relative;
+    background-color: transparent;
+    color: white;
+
+}
+
+.mail {
+    right: 42px;
+    top: 930px;
+    position: relative;
+    background-color: transparent;
+    color: white;
+}
+
+.copiright {
+    background-color: transparent;
+    left: 560px;
+    position: relative;
+    top: 900px;
+}
+
+.direccion {
+    background-color: transparent;
+    left: 1020px;
+    position: relative;
+    top: 840px;
+}
+
+p {
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+label {
+
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+input select {
+
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+
+}
+
+.section-formulario {
+    color: white;
+    position: relative;
+    left: 450px;
+
+}
+
+.section-formulario input {
+    color: white;
+}
+
+.section-formulario button {
+    color: white;
+}
+
+.section-formulario select {
+    color: white;
+}
