@@ -2,12 +2,15 @@
 
 
 * {
-    background-color: black;
+    /* background-color: black; */
     margin: 1;
     padding: 1;
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
 
 .logo-home {
     position: relative;
@@ -181,7 +184,9 @@
     gap: 20px;
 }
 
+
 .navBar li a {
+    background-color: transparent;
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -189,6 +194,7 @@
 }
 
 .navBar-bio li a {
+    background-color: transparent;
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -196,6 +202,7 @@
 }
 
 .navBar-musica li a {
+    background-color: transparent;
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -203,6 +210,7 @@
 }
 
 .navBar-video li a {
+    background-color: transparent;
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -210,6 +218,7 @@
 }
 
 .navBar-fotos li a {
+    background-color: transparent;
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -217,6 +226,7 @@
 }
 
 .navBar-clases li a {
+    background-color: transparent;
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -224,6 +234,7 @@
 }
 
 .navBar-formulario li a {
+    background-color: transparent;
     text-decoration: none;
     color: white;
     font-size: 25px;
@@ -424,4 +435,8 @@ input select {
 
 .section-formulario select {
     color: white;
+}
+
+.section-fotos{
+    display: ;
 }
