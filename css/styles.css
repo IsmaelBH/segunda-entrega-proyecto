@@ -2,113 +2,113 @@
 
 
 * {
-    /* background-color: black; */
-    margin: 1;
-    padding: 1;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+
 }
 
-body {
+/* body {
+
     background-color: black;
+} */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
 }
 
-.logo-home {
+main {}
+
+footer {}
+
+
+
+.body-index {
+    width: 100%;
+    height: 800px;
+    background-image: url(../assets/img/Portada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.041);
+
+
+}
+
+.logo-index {
     position: relative;
     background-color: transparent;
-    right: 10px;
-    bottom: 750px;
+    left: 30px;
+    top: 40px;
+}
+
+.portada-bio {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/img/foto-bio.jpg);
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.041);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .logo-bio {
     position: relative;
     background-color: transparent;
-    right: 10px;
-    bottom: 360px;
+    right: 850px;
+    top: 120px;
 }
 
 .logo-musica {
     position: relative;
     background-color: transparent;
-    right: 10px;
-    bottom: 360px;
+    right: 650px;
+    bottom: 250px;
 }
 
-.logo-video {
+.logo-videos {
     position: relative;
     background-color: transparent;
-    right: 10px;
-    bottom: 360px;
+    right: 650px;
+    bottom: 250px;
 }
 
 .logo-fotos {
     position: relative;
     background-color: transparent;
-    right: 10px;
-    bottom: 360px;
+    right: 650px;
+    bottom: 250px;
 }
 
 .logo-clases {
     position: relative;
     background-color: transparent;
-    right: 10px;
-    bottom: 360px;
+    right: 1000px;
+    bottom: 250px;
 }
 
-
-.portada-principal {
-
-    background-size: auto;
-    background-position: 100%;
-    background-repeat: no-repeat;
-
-}
-
-.portada-bio {
-
-    align-items: center;
-    background-size: 90px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.portada-musica {
-
-    align-items: center;
-    background-size: 90px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.portada-videos {
-    align-items: center;
-    background-size: 90px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.portada-fotos {
-    align-items: center;
-    background-size: 90px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.portada-clases {
-    align-items: center;
-    background-size: 90px;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.navBar {
+.logo-formulario {
     position: relative;
     background-color: transparent;
-    left: 300px;
-    bottom: 260px;
+    right: 650px;
+    bottom: 250px;
+}
+
+.navBar-index {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: transparent;
+    left: 280px;
+    top: 550px;
     font-family: "K2D", sans-serif;
     color: white;
     display: flex;
-    list-style-type: none;
+    list-style: none;
     gap: 20px;
 }
 
@@ -116,7 +116,7 @@ body {
     position: relative;
     background-color: transparent;
     left: 330px;
-    bottom: 350px;
+    bottom: 50px;
     font-family: "K2D", sans-serif;
     color: white;
     display: flex;
@@ -176,7 +176,7 @@ body {
     position: relative;
     background-color: transparent;
     left: 330px;
-    bottom: 5px;
+    top: 10px;
     font-family: "K2D", sans-serif;
     color: white;
     display: flex;
@@ -185,60 +185,59 @@ body {
 }
 
 
-.navBar li a {
+.navBar-index li a {
     background-color: transparent;
     text-decoration: none;
     color: white;
-    font-size: 25px;
-
+    font-size: 40px;
 }
 
 .navBar-bio li a {
     background-color: transparent;
     text-decoration: none;
     color: white;
-    font-size: 25px;
-
+    font-size: 40px;
 }
 
 .navBar-musica li a {
     background-color: transparent;
     text-decoration: none;
     color: white;
-    font-size: 25px;
-
+    font-size: 30px;
 }
 
 .navBar-video li a {
     background-color: transparent;
     text-decoration: none;
     color: white;
-    font-size: 25px;
-
+    font-size: 30px;
 }
 
 .navBar-fotos li a {
     background-color: transparent;
     text-decoration: none;
     color: white;
-    font-size: 25px;
-
+    font-size: 30px;
 }
 
 .navBar-clases li a {
     background-color: transparent;
     text-decoration: none;
     color: white;
-    font-size: 25px;
-
+    font-size: 30px;
 }
 
 .navBar-formulario li a {
     background-color: transparent;
     text-decoration: none;
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+}
 
+.section-principal-bio {
+    position: relative;
+    top: 230px;
+    margin: 100px;
 }
 
 .section-principal-musica iframe {
@@ -247,7 +246,6 @@ body {
     position: relative;
     top: 1px;
     right: 0px;
-
 }
 
 .section-principal-musica p {
@@ -259,7 +257,105 @@ body {
     position: relative;
     top: 1px;
     right: 0px;
+}
 
+.grid-fotos {
+    display: grid;
+    margin: 40px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.item {
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.grid-fotos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-videos {
+    display: grid;
+    margin: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.item-videos {
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.grid-videos iframe {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+.grid-musica {
+    display: grid;
+    margin: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.item-musica {
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.grid-musica iframe {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.texto-videos {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 40px;
+    right: 350px;
+    bottom: 10px;
+}
+
+
+.texto-bio {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 40px;
+    right: 500px;
+    top: 380px;
+    margin: 80px;
+}
+
+.texto-fotos {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 40px;
+    right: 350px;
+    bottom: 10px;
+}
+
+.texto-musica {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 40px;
+    right: 350px;
+    bottom: 10px;
 }
 
 .boton {
@@ -270,24 +366,22 @@ body {
     color: white;
     font-family: "K2D", sans-serif;
     position: relative;
-    left: 400px;
-    bottom: 180px;
-
+    left: 460px;
+    bottom: 60px;
 }
 
-.section-pie-de-pagina-home {
-    bottom: 10px;
-    background-size: auto;
-    background-repeat: no-repeat;
+.section-pie-de-pagina-index {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 500px;
+    left: 700px;
     font-family: "K2D", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
 
 .section-pie-de-pagina-bio {
-    background-image: url("../assets/img/pie-de-pagina.png");
-    width: 100%;
-    height: 28.125rem;
 
     background-size: contain;
     background-repeat: no-repeat;
@@ -297,22 +391,17 @@ body {
 }
 
 .section-pie-de-pagina-musica {
-    background-image: url("../assets/img/pie-de-pagina.png");
     width: 100%;
-    height: 28.125rem;
-
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 100vh;
     font-family: "K2D", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
 
 .section-pie-de-pagina-videos {
-    background-image: url("../assets/img/pie-de-pagina.png");
+
     width: 100%;
     height: 28.125rem;
-
     background-size: contain;
     background-repeat: no-repeat;
     font-family: "K2D", sans-serif;
@@ -321,10 +410,11 @@ body {
 }
 
 .section-pie-de-pagina-fotos {
-    background-image: url("../assets/img/pie-de-pagina.png");
+    position: relative;
     width: 100%;
     height: 28.125rem;
-
+    top: 50px;
+    left: 550px;
     background-size: contain;
     background-repeat: no-repeat;
     font-family: "K2D", sans-serif;
@@ -332,11 +422,13 @@ body {
     font-style: normal;
 }
 
+
 .section-pie-de-pagina-clases {
-    background-image: url("../assets/img/pie-de-pagina.png");
+    position: relative;
     width: 100%;
     height: 28.125rem;
-
+    top: 20px;
+    left: 550px;
     background-size: contain;
     background-repeat: no-repeat;
     font-family: "K2D", sans-serif;
@@ -345,50 +437,164 @@ body {
 }
 
 .section-pie-de-pagina-formulario {
-    background-image: url("../assets/img/pie-de-pagina.png");
     width: 100%;
-    height: 28.125rem;
-
-    background-size: contain;
-    background-repeat: no-repeat;
+    height: 15.625rem;
+    position: relative;
+    top: 20px;
+    left: 34.375rem;
     font-family: "K2D", sans-serif;
     font-weight: 100;
     font-style: normal;
 }
 
-
-
-
-
-.instagram {
-    left: 40px;
-    top: 910px;
+.instagram-index {
+    width: 3.1rem;
+    height: auto;
     position: relative;
-    background-color: transparent;
-    color: white;
-
+    top: 1px;
+    left: 5%;
 }
 
-.mail {
-    right: 42px;
-    top: 930px;
+.mail-index {
+    width: 1.9rem;
+    height: auto;
     position: relative;
-    background-color: transparent;
-    color: white;
+    /* left: 548px;
+    top: 878px; */
 }
 
-.copiright {
-    background-color: transparent;
-    left: 560px;
+.copiright-index {
+    width: fit-content;
     position: relative;
-    top: 900px;
+    /* top: 885px;
+    left: 540px; */
 }
 
-.direccion {
-    background-color: transparent;
-    left: 1020px;
+.instagram-bio {
+    width: 3.1rem;
+    height: auto;
     position: relative;
-    top: 840px;
+    left: 660px;
+    top: 300px;
+}
+
+.mail-bio {
+    width: 1.9rem;
+    height: auto;
+    position: relative;
+    left: 665px;
+    top: 299px;
+}
+
+.copiright-bio {
+    width: fit-content;
+    position: relative;
+    top: 300px;
+    left: 650px;
+}
+
+.instagram-musica {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 545px;
+    top: 180px;
+}
+
+.mail-musica {
+    width: 1.9rem;
+    height: auto;
+    position: relative;
+    left: 548px;
+    top: 178px;
+}
+
+.copiright-musica {
+    width: fit-content;
+    position: relative;
+    top: 185px;
+    left: 540px;
+}
+
+.instagram-videos {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 545px;
+    top: 880px;
+}
+
+
+.mail-videos {
+    width: 1.8rem;
+    height: auto;
+}
+
+.copiright-videos {
+    width: fit-content;
+    position: relative;
+    top: 185px;
+    left: 540px;
+}
+
+.instagram-fotos {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 545px;
+    top: 880px;
+}
+
+.mail-fotos {
+    width: 1.8rem;
+    height: auto;
+}
+
+.copiright-fotos {
+    width: fit-content;
+    position: relative;
+    top: 185px;
+    left: 540px;
+}
+
+.instagram-clases {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 545px;
+    top: 880px;
+}
+
+.mail-clases {
+    width: 1.8rem;
+    height: auto;
+}
+
+.copiright-clases {
+    width: fit-content;
+    position: relative;
+    top: 185px;
+    left: 540px;
+}
+
+.instagram-formulario {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 545px;
+    top: 880px;
+}
+
+.mail-formulario {
+    width: 1.8rem;
+    height: auto;
+}
+
+.copiright-formulario {
+    width: fit-content;
+    position: relative;
+    top: 185px;
+    left: 540px;
 }
 
 p {
@@ -400,43 +606,302 @@ p {
 }
 
 label {
-
     display: block;
     margin-bottom: 5px;
     color: white;
     font-family: "K2D", sans-serif;
     font-weight: 100;
     font-style: normal;
-
 }
 
 input select {
-
     width: 100%;
     padding: 8px;
     margin-bottom: 10px;
-
 }
 
 .section-formulario {
     color: white;
     position: relative;
-    left: 450px;
-
+    left: 520px;
+    bottom: 20px;
 }
 
 .section-formulario input {
-    color: white;
+    color: black;
 }
 
 .section-formulario button {
-    color: white;
+    color: black;
 }
 
 .section-formulario select {
-    color: white;
+    color: black;
 }
 
-.section-fotos{
-    display: ;
+
+
+@media (max-width: 1024px) {
+
+    .logo-index {
+        position: relative;
+        width: 150px;
+    }
+
+    .navBar-index {
+        position: relative;
+        top: 430px;
+        left: 150px;
+    }
+
+    .navBar-index li a {
+        font-size: 30px;
+    }
+
+    .section-pie-de-pagina-index {
+        position: relative;
+        top: 200px;
+    }
+
+    .instagram-index {
+        position: relative;
+        top: 160px;
+        left: 350px;
+    }
+
+    .mail-index {
+        position: relative;
+        top: 159px;
+        left: 350px;
+    }
+
+    .copiright-index {
+        position: relative;
+        top: 160px;
+        left: 345px;
+    }
+
+    .logo-bio {
+        position: relative;
+        width: 150px;
+        top: 60px;
+        right: 680px;
+    }
+
+    .navBar-bio {
+        position: relative;
+        top: -50px;
+        left: 150px;
+    }
+
+    .navBar-bio li a {
+        font-size: 30px;
+    }
+
+    .texto-bio {
+        position: relative;
+        top: 280px;
+        right: 480px;
+    }
+
+    .section-principal-bio p {
+        position: relative;
+        bottom: 80px;
+    }
+
+    .instagram-bio {
+        position: relative;
+        top: 150px;
+        left: 450px;
+    }
+
+    .mail-bio {
+        position: relative;
+        top: 150px;
+        left: 450px;
+    }
+
+    .copiright-bio {
+        position: relative;
+        top: 150px;
+        left: 445px;
+    }
+
+    .portada-bio {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-index {
+        position: relative;
+        width: 100px;
+    }
+
+    .navBar-index {
+        position: relative;
+        top: 330px;
+        left: 120px;
+    }
+
+    .navBar-index li a {
+        font-size: 20px;
+    }
+
+    .section-pie-de-pagina-index {
+        position: relative;
+        top: 50px;
+    }
+
+    .instagram-index {
+        position: relative;
+        width: 35px;
+        top: 231px;
+        left: 235px;
+    }
+
+    .mail-index {
+        position: relative;
+        width: 20px;
+        top: 230px;
+        left: 230px;
+    }
+
+    .copiright-index {
+        position: relative;
+        top: 230px;
+        left: 225px;
+        font-size: 12px;
+    }
+
+    .logo-bio {
+        position: relative;
+        width: 100px;
+        top: 20px;
+        right: 490px;
+    }
+
+    .navBar-bio {
+        position: relative;
+        bottom: 240px;
+        left: 120px;
+    }
+
+    .navBar-bio li a {
+        font-size: 20px;
+    }
+
+    .texto-bio {
+        position: relative;
+        top: 180px;
+        right: 350px;
+        font-size: 30px;
+    }
+
+    .section-principal-bio {
+        position: relative;
+        top: 100px;
+        font-size: 15px;
+    }
+
+    .section-pie-de-pagina-bio {
+        position: relative;
+        bottom: 150px;
+        right: 120px;
+    }
+
+    .instagram-bio {
+        position: relative;
+        bottom: 510px;
+        left: 450px;
+    }
+
+    .mail-bio {
+        position: relative;
+        bottom: 111px;
+        left: 450px;
+    }
+
+    .copiright-bio {
+        position: relative;
+        bottom: 100px;
+        left: 445px;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    footer {
+        position: relative;
+        bottom: 150px;
+        right: 155px;
+
+    }
+
+    main {
+        position: relative;
+        bottom: 300px;
+    }
+
+
+    .body-index {
+        background-image: url(../assets/img/Portada\ Celu.jpg);
+    }
+
+    .navBar-index {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 150px;
+        left: 160px;
+    }
+
+    .navBar-index li a {
+        font-size: 22px;
+        color: white;
+    }
+
+    .logo-index {
+        width: auto;
+        height: 90px;
+        position: relative;
+        flex-direction: column;
+        left: 150px;
+        top: -15px;
+    }
+
+    .logo-bio {
+        position: relative;
+        width: auto;
+        height: 60px;
+        top: -30px;
+        left: 1px;
+    }
+
+    .navBar-bio {
+        position: relative;
+        display: flex;
+        top: 05px;
+        left: 20px;
+    }
+
+    .navBar-bio li a {
+        font-size: 14px;
+        color: white;
+    }
+
+    .texto-bio {
+        position: relative;
+        right: 1px;
+        top: 50px;
+    }
+
+    .section-principal-bio {
+        width: 350px;
+        margin: 90px;
+        top: 280px;
+        right: 50px;
+    }
 }
