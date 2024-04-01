@@ -386,6 +386,12 @@ header {
     top: 340px;
 }
 
+.texto-por-clases {
+    position: relative;
+    bottom: 100px;
+    left: 540px;
+}
+
 .boton {
     background-color: rgba(255, 0, 0, 0.975);
     font-size: 40px;
@@ -629,6 +635,13 @@ header {
     position: relative;
     top: 185px;
     left: 540px;
+}
+
+h1 {
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 p {
