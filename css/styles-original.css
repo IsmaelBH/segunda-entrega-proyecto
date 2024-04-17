@@ -1,0 +1,991 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anta&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+
+.portada-index {
+    width: auto;
+    height: 48.75rem;
+    background-image: url(../assets/img/Portada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.041);
+
+}
+
+
+.portada-bio {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/img/foto-bio.jpg);
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.041);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.portada-musica {
+    width: 100%;
+    height: auto;
+    background-image: url(../assets/img/Foto-musica.jpg);
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.041);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+
+.logo-index {
+    position: relative;
+    background-color: transparent;
+    left: 30px;
+    top: 40px;
+}
+
+.logo-bio {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    right: 680px;
+    top: 10px;
+}
+
+.logo-musica {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    right: 680px;
+    top: 80px;
+}
+
+.logo-videos {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    right: 680px;
+    bottom: 240px;
+}
+
+.logo-fotos {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    right: 680px;
+    bottom: 240px;
+}
+
+.logo-clases {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    right: 980px;
+    bottom: 240px;
+}
+
+.logo-formulario {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    right: 980px;
+    top: 80px;
+}
+
+.navBar-index {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: transparent;
+    left: 280px;
+    top: 31.25rem;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.navBar-bio {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 340px;
+    bottom: 160px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-musica {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    left: 280px;
+    bottom: 20px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-video {
+    position: relative;
+    background-color: transparent;
+    left: 330px;
+    bottom: 350px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-fotos {
+    position: relative;
+    background-color: transparent;
+    left: 330px;
+    bottom: 350px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-clases {
+    position: relative;
+    background-color: transparent;
+    left: 330px;
+    bottom: 350px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+.navBar-formulario {
+    position: relative;
+    background-color: transparent;
+    left: 330px;
+    top: 10px;
+    font-family: "K2D", sans-serif;
+    color: white;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+
+.navBar-index li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.navBar-bio li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.navBar-musica li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.navBar-video li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.navBar-fotos li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.navBar-clases li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.navBar-formulario li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.section-principal-bio {
+    position: relative;
+    top: 130px;
+    margin: 100px;
+}
+
+.section-principal-musica {
+    position: relative;
+    width: 100%;
+    height: auto;
+    top: 300px;
+}
+
+.section-principal-musica iframe {
+    width: 40%;
+    height: 180px;
+    position: relative;
+    top: 1px;
+    right: 0px;
+}
+
+.section-principal-musica p {
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 40%;
+    height: 180px;
+    position: relative;
+    top: 1px;
+    right: 0px;
+}
+
+
+.grid-musica {
+    display: grid;
+    margin: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+
+}
+
+.item-musica {
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.item:hover {
+    opacity: 0.6;
+}
+
+.grid-musica iframe {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+    display: block;
+}
+
+
+.carousel {
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    left: 300px;
+
+}
+
+
+.grid-videos {
+    display: grid;
+    margin: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.item-videos {
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.item-videos:hover {
+    opacity: 0.6;
+}
+
+.grid-videos iframe {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+}
+
+
+
+.texto-videos {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 40px;
+    right: 350px;
+    bottom: 10px;
+
+}
+
+
+
+.texto-bio {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 40px;
+    right: 450px;
+    top: 320px;
+    margin: 180px;
+}
+
+.texto-fotos {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 40px;
+    right: 350px;
+    bottom: 10px;
+}
+
+.texto-musica {
+    width: 100%;
+    height: auto;
+    position: relative;
+    font-size: 40px;
+    right: 350px;
+    top: 340px;
+}
+
+.texto-por-clases {
+    position: relative;
+    bottom: 100px;
+    left: 540px;
+}
+
+.boton {
+    background-color: rgba(255, 0, 0, 0.975);
+    font-size: 40px;
+    border: 8px solid red;
+    border-radius: 20px;
+    color: white;
+    font-family: "K2D", sans-serif;
+    position: relative;
+    left: 460px;
+    bottom: 60px;
+}
+
+.section-pie-de-pagina-index {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 31.25rem;
+    left: 34.375rem;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-bio {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    right: 10px;
+    bottom: 150px;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-musica {
+    width: 100%;
+    height: 100vh;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-videos {
+
+    width: 100%;
+    height: 28.125rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-fotos {
+    width: 100%;
+    height: 28.125rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.section-pie-de-pagina-clases {
+    width: 100%;
+    height: 28.125rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.section-pie-de-pagina-formulario {
+    width: 100%;
+    height: 28.125rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.instagram-index {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    top: 1px;
+    left: 5%;
+}
+
+.mail-index {
+    width: 1.9rem;
+    height: auto;
+    position: relative;
+
+}
+
+.copiright-index {
+    width: fit-content;
+    position: relative;
+
+}
+
+.instagram-bio {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 660px;
+    top: 300px;
+}
+
+.mail-bio {
+    width: 1.9rem;
+    height: auto;
+    position: relative;
+    left: 650px;
+    top: 299px;
+}
+
+.copiright-bio {
+    width: fit-content;
+    position: relative;
+    top: 300px;
+    left: 650px;
+}
+
+.instagram-musica {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 545px;
+    top: 180px;
+}
+
+.mail-musica {
+    width: 1.9rem;
+    height: auto;
+    position: relative;
+    left: 548px;
+    top: 178px;
+}
+
+.copiright-musica {
+    width: fit-content;
+    position: relative;
+    top: 185px;
+    left: 540px;
+}
+
+.instagram-videos {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 545px;
+    top: 180px;
+}
+
+
+.mail-videos {
+    width: 1.9rem;
+    height: auto;
+    position: relative;
+    left: 548px;
+    top: 178px;
+}
+
+.copiright-videos {
+    width: fit-content;
+    position: relative;
+    top: 185px;
+    left: 540px;
+}
+
+.instagram-fotos {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 545px;
+    top: 180px;
+}
+
+.mail-fotos {
+    width: 1.9rem;
+    height: auto;
+    position: relative;
+    left: 548px;
+    top: 178px;
+}
+
+.copiright-fotos {
+    width: fit-content;
+    position: relative;
+    top: 185px;
+    left: 540px;
+}
+
+.instagram-clases {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 545px;
+    top: 180px;
+}
+
+.mail-clases {
+    width: 1.9rem;
+    height: auto;
+    position: relative;
+    left: 548px;
+    top: 178px;
+}
+
+.copiright-clases {
+    width: fit-content;
+    position: relative;
+    top: 185px;
+    left: 540px;
+}
+
+.instagram-formulario {
+    width: 3.1rem;
+    height: auto;
+    position: relative;
+    left: 545px;
+    top: 180px;
+}
+
+.mail-formulario {
+    width: 1.9rem;
+    height: auto;
+    position: relative;
+    left: 548px;
+    top: 178px;
+}
+
+.copiright-formulario {
+    width: fit-content;
+    position: relative;
+    top: 185px;
+    left: 540px;
+}
+
+h1 {
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+p {
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+input select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.section-formulario {
+    color: white;
+    position: relative;
+    left: 520px;
+    top: 80px;
+}
+
+.section-formulario input {
+    color: black;
+}
+
+.section-formulario button {
+    color: black;
+}
+
+.section-formulario select {
+    color: black;
+}
+
+
+
+@media (max-width: 1024px) {
+
+    .logo-index {
+        position: relative;
+        width: 150px;
+    }
+
+    .navBar-index {
+        position: relative;
+        top: 530px;
+        left: 150px;
+    }
+
+    .navBar-index li a {
+        font-size: 30px;
+    }
+
+    .section-pie-de-pagina-index {
+        position: relative;
+        top: 350px;
+        left: 100px;
+    }
+
+    .instagram-index {
+        position: relative;
+        top: 160px;
+        left: 350px;
+    }
+
+    .mail-index {
+        position: relative;
+        top: 159px;
+        left: 350px;
+    }
+
+    .copiright-index {
+        position: relative;
+        top: 160px;
+        left: 345px;
+    }
+
+    .logo-bio {
+        position: relative;
+        width: 150px;
+        top: -50px;
+        right: 680px;
+    }
+
+    .navBar-bio {
+        position: relative;
+
+        left: 180px;
+    }
+
+    .navBar-bio li a {
+        font-size: 30px;
+    }
+
+    .texto-bio {
+        position: relative;
+        top: 120px;
+        right: 560px;
+    }
+
+    .section-principal-bio {
+        position: relative;
+        top: -150px;
+
+    }
+
+    .section-pie-de-pagina-bio {
+        position: relative;
+        top: -320px;
+        left: 10px;
+    }
+
+    .instagram-bio {
+        position: relative;
+        top: 150px;
+        left: 450px;
+    }
+
+    .mail-bio {
+        position: relative;
+        top: 150px;
+        left: 450px;
+    }
+
+    .copiright-bio {
+        position: relative;
+        top: 150px;
+        left: 445px;
+    }
+
+    .portada-bio {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo-index {
+        position: relative;
+        width: 100px;
+    }
+
+    .navBar-index {
+        position: relative;
+        top: 630px;
+        left: 120px;
+    }
+
+    .navBar-index li a {
+        font-size: 20px;
+    }
+
+    .section-pie-de-pagina-index {
+        position: relative;
+        top: 350px;
+    }
+
+    .instagram-index {
+        position: relative;
+        width: 35px;
+        top: 231px;
+        left: 235px;
+    }
+
+    .mail-index {
+        position: relative;
+        width: 20px;
+        top: 230px;
+        left: 230px;
+    }
+
+    .copiright-index {
+        position: relative;
+        top: 230px;
+        left: 225px;
+        font-size: 12px;
+    }
+
+    .logo-bio {
+        position: relative;
+        width: 100%;
+        height: auto;
+        right: 520px;
+        top: -80px;
+    }
+
+    .navBar-bio {
+        position: relative;
+
+        left: 120px;
+    }
+
+    .navBar-bio li a {
+        font-size: 20px;
+    }
+
+    .texto-bio {
+        position: relative;
+        top: 40px;
+        right: 530px;
+        font-size: 30px;
+    }
+
+    .section-principal-bio {
+        position: relative;
+        margin: 40px;
+        font-size: 15px;
+    }
+
+    .section-pie-de-pagina-bio {
+        position: relative;
+
+    }
+
+    .instagram-bio {
+        position: relative;
+        bottom: 510px;
+        left: 450px;
+    }
+
+    .mail-bio {
+        position: relative;
+        bottom: 111px;
+        left: 450px;
+    }
+
+    .copiright-bio {
+        position: relative;
+        bottom: 100px;
+        left: 445px;
+    }
+}
+
+
+
+@media (max-width: 426px) {
+    footer {
+        position: relative;
+        bottom: 150px;
+        right: 155px;
+
+    }
+
+    main {
+        position: relative;
+        bottom: 300px;
+    }
+
+
+    .navBar-index {
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 220px;
+        left: 160px;
+    }
+
+    .navBar-index li a {
+        font-size: 22px;
+        color: white;
+    }
+
+    .logo-index {
+        width: auto;
+        height: 90px;
+        position: relative;
+        flex-direction: column;
+        left: 150px;
+        top: 10px;
+    }
+
+    .section-pie-de-pagina-index {
+        position: relative;
+        width: auto;
+        height: auto;
+        top: 180px;
+    }
+
+    .logo-bio {
+        width: fit-content;
+        height: fit-content;
+        position: relative;
+        flex-direction: column;
+        right: 390px;
+        top: 10px;
+    }
+
+    .navBar-bio {
+        position: relative;
+        display: flex;
+        bottom: 180px;
+        left: 20px;
+    }
+
+    .navBar-bio li a {
+        font-size: 12px;
+        color: white;
+    }
+
+    .texto-bio {
+        position: relative;
+        right: 540px;
+        top: 10px;
+    }
+
+    .section-principal-bio {
+        width: 350px;
+        top: 140px;
+        left: 10px;
+    }
+
+    .section-principal-bio p {
+        font-size: 10px;
+        margin: 20px;
+    }
+
+    .section-pie-de-pagina-bio {
+        top: -120px;
+        left: -110px;
+    }
+
+    .instagram-bio {
+        width: 30px;
+        height: auto;
+    }
+
+    .mail-bio {
+        width: 20px;
+        height: auto;
+    }
+
+    .copiright-bio {
+        font-size: 12px;
+    }
+} */

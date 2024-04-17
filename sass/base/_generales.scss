@@ -1,0 +1,50 @@
+body {
+    background-color: black;
+
+    .portada-index {
+        width: auto;
+        height: 48.75rem;
+        background-image: url(../assets/img/Portada.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: lighten;
+        background-color: rgba(255, 255, 255, 0.072);
+    }
+
+    .portada-video {
+        background-blend-mode: lighten;
+        background-color: rgba(255, 255, 255, 0.434);
+    }
+
+}
+
+
+h1 {
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+p {
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+input select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}

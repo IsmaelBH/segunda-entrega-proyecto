@@ -1,0 +1,96 @@
+@media (max-width: 768px) {
+    .logo-index {
+        position: relative;
+        width: 100px;
+    }
+
+    .navBar-index {
+        position: relative;
+        top: 630px;
+        left: 120px;
+    }
+
+    .navBar-index li a {
+        font-size: 20px;
+    }
+
+    .section-pie-de-pagina-index {
+        position: relative;
+        top: 350px;
+    }
+
+    .instagram-index {
+        position: relative;
+        width: 35px;
+        top: 231px;
+        left: 235px;
+    }
+
+    .mail-index {
+        position: relative;
+        width: 20px;
+        top: 230px;
+        left: 230px;
+    }
+
+    .copiright-index {
+        position: relative;
+        top: 230px;
+        left: 225px;
+        font-size: 12px;
+    }
+
+    .logo-bio {
+        position: relative;
+        width: 100%;
+        height: auto;
+        right: 520px;
+        top: -80px;
+    }
+
+    .navBar-bio {
+        position: relative;
+
+        left: 120px;
+    }
+
+    .navBar-bio li a {
+        font-size: 20px;
+    }
+
+    .texto-bio {
+        position: relative;
+        top: 40px;
+        right: 530px;
+        font-size: 30px;
+    }
+
+    .section-principal-bio {
+        position: relative;
+        margin: 40px;
+        font-size: 15px;
+    }
+
+    .section-pie-de-pagina-bio {
+        position: relative;
+
+    }
+
+    .instagram-bio {
+        position: relative;
+        bottom: 510px;
+        left: 450px;
+    }
+
+    .mail-bio {
+        position: relative;
+        bottom: 111px;
+        left: 450px;
+    }
+
+    .copiright-bio {
+        position: relative;
+        bottom: 100px;
+        left: 445px;
+    }
+}

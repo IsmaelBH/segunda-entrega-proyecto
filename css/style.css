@@ -1,0 +1,575 @@
+@import url("https://fonts.googleapis.com/css2?family=Anta&family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: black; }
+  body .portada-index {
+    width: auto;
+    height: 48.75rem;
+    background-image: url(../assets/img/Portada.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.072); }
+  body .portada-video {
+    background-blend-mode: lighten;
+    background-color: rgba(255, 255, 255, 0.434); }
+
+h1 {
+  color: white;
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+p {
+  color: white;
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+input select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px; }
+
+.navBar-index {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background-color: transparent;
+  left: 280px;
+  top: 31.25rem;
+  font-family: "K2D", sans-serif;
+  color: white;
+  display: flex;
+  list-style: none;
+  gap: 20px; }
+  .navBar-index li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px; }
+    .navBar-index li a:hover {
+      color: #dec8ab; }
+
+.navBar-bio {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  left: 18.75rem;
+  bottom: 23.75rem;
+  font-family: "K2D", sans-serif;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  gap: 20px; }
+  .navBar-bio li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px; }
+    .navBar-bio li a:hover {
+      color: #dec8ab; }
+
+.navBar-musica {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  left: 280px;
+  bottom: 380px;
+  font-family: "K2D", sans-serif;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  gap: 20px; }
+  .navBar-musica li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px; }
+    .navBar-musica li a:hover {
+      color: #dec8ab; }
+
+.navBar-video {
+  position: relative;
+  background-color: transparent;
+  left: 330px;
+  bottom: 350px;
+  font-family: "K2D", sans-serif;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  gap: 20px; }
+  .navBar-video li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px; }
+    .navBar-video li a:hover {
+      color: #dec8ab; }
+
+.navBar-fotos {
+  position: relative;
+  background-color: transparent;
+  left: 330px;
+  bottom: 350px;
+  font-family: "K2D", sans-serif;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  gap: 20px; }
+  .navBar-fotos li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px; }
+    .navBar-fotos li a:hover {
+      color: #dec8ab; }
+
+.navBar-clases {
+  position: relative;
+  background-color: transparent;
+  left: 330px;
+  bottom: 350px;
+  font-family: "K2D", sans-serif;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  gap: 20px; }
+  .navBar-clases li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px; }
+    .navBar-clases li a:hover {
+      color: #dec8ab; }
+
+.navBar-formulario {
+  position: relative;
+  background-color: transparent;
+  left: 330px;
+  top: 10px;
+  font-family: "K2D", sans-serif;
+  color: white;
+  display: flex;
+  list-style-type: none;
+  gap: 20px; }
+  .navBar-formulario li a {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 30px; }
+    .navBar-formulario li a:hover {
+      color: #dec8ab; }
+
+.logo-index {
+  position: relative;
+  background-color: transparent;
+  left: 30px;
+  top: 40px; }
+
+.logo-bio {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  right: 980px;
+  bottom: 13.75rem; }
+
+.logo-musica {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  right: 680px;
+  bottom: 280px; }
+
+.logo-videos {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  right: 680px;
+  bottom: 240px; }
+
+.logo-fotos {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  right: 680px;
+  bottom: 240px; }
+
+.logo-clases {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  right: 980px;
+  bottom: 240px; }
+
+.logo-formulario {
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  right: 980px;
+  top: 80px; }
+
+.section-principal-bio {
+  position: relative;
+  bottom: 12.25rem;
+  left: 480px;
+  margin: 80px;
+  font-size: 20px; }
+
+.texto-bio {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 180px;
+  bottom: 16rem;
+  font-size: 15px; }
+
+.section-principal-musica {
+  position: relative;
+  width: 100%;
+  height: auto;
+  bottom: 50px; }
+  .section-principal-musica iframe {
+    width: 30%;
+    height: 160px;
+    position: relative;
+    top: 1px;
+    right: 0px; }
+  .section-principal-musica p {
+    font-family: "K2D", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    width: 40%;
+    height: 180px;
+    position: relative;
+    top: 1px;
+    right: 0px; }
+
+.texto-musica {
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: 20px;
+  right: 350px;
+  bottom: 30px; }
+
+.grid-musica {
+  bottom: 600px;
+  display: grid;
+  margin: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 40px; }
+
+.item-musica {
+  overflow: hidden;
+  border-radius: 50px; }
+
+.item:hover {
+  opacity: 0.6; }
+
+.grid-musica iframe {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  display: block; }
+
+.texto-videos {
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: 20px;
+  right: 350px;
+  bottom: 10px; }
+
+.grid-videos {
+  display: grid;
+  margin: 40px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 40px; }
+
+.item-videos {
+  overflow: hidden;
+  border-radius: 50px; }
+
+.item-videos:hover {
+  opacity: 0.6; }
+
+.grid-videos iframe {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block; }
+
+.texto-fotos {
+  width: 100%;
+  height: auto;
+  position: relative;
+  font-size: 20px;
+  right: 350px;
+  bottom: 10px; }
+
+.texto-por-clases {
+  position: relative;
+  bottom: 100px;
+  left: 560px;
+  font-size: 20px; }
+
+.boton {
+  background-color: rgba(255, 0, 0, 0.975);
+  font-size: 40px;
+  border: 8px solid red;
+  border-radius: 20px;
+  color: white;
+  font-family: "K2D", sans-serif;
+  position: relative;
+  left: 460px;
+  bottom: 60px; }
+
+.section-formulario {
+  color: white;
+  position: relative;
+  left: 520px;
+  top: 80px; }
+
+.section-formulario input {
+  color: black; }
+
+.section-formulario button {
+  color: black; }
+
+.section-formulario select {
+  color: black; }
+
+.section-pie-de-pagina-index {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  top: 31.25rem;
+  left: 34.375rem;
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.instagram-index {
+  width: 3.1rem;
+  height: auto;
+  position: relative;
+  top: 1px;
+  left: 5%; }
+
+.mail-index {
+  width: 1.9rem;
+  height: auto;
+  position: relative; }
+
+.copiright-index {
+  width: fit-content;
+  position: relative;
+  right: .25rem; }
+
+.section-pie-de-pagina-bio {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  right: 80px;
+  bottom: 100px;
+  background-repeat: no-repeat;
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.instagram-bio {
+  width: 3.1rem;
+  height: auto;
+  position: relative;
+  left: 660px;
+  top: 300px; }
+
+.mail-bio {
+  width: 1.9rem;
+  height: auto;
+  position: relative;
+  left: 650px;
+  top: 299px; }
+
+.copiright-bio {
+  width: fit-content;
+  position: relative;
+  top: 300px;
+  left: 650px; }
+
+.section-pie-de-pagina-musica {
+  width: 100%;
+  height: 100vh;
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.instagram-musica {
+  width: 3.1rem;
+  height: auto;
+  position: relative;
+  left: 545px;
+  top: 180px; }
+
+.mail-musica {
+  width: 1.9rem;
+  height: auto;
+  position: relative;
+  left: 548px;
+  top: 178px; }
+
+.copiright-musica {
+  width: fit-content;
+  position: relative;
+  top: 185px;
+  left: 540px; }
+
+.section-pie-de-pagina-videos {
+  width: 100%;
+  height: 28.125rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.instagram-videos {
+  width: 3.1rem;
+  height: auto;
+  position: relative;
+  left: 545px;
+  top: 180px; }
+
+.mail-videos {
+  width: 1.9rem;
+  height: auto;
+  position: relative;
+  left: 548px;
+  top: 178px; }
+
+.copiright-videos {
+  width: fit-content;
+  position: relative;
+  top: 185px;
+  left: 540px; }
+
+.section-pie-de-pagina-fotos {
+  width: 100%;
+  height: 28.125rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.instagram-fotos {
+  width: 3.1rem;
+  height: auto;
+  position: relative;
+  left: 545px;
+  top: 180px; }
+
+.mail-fotos {
+  width: 1.9rem;
+  height: auto;
+  position: relative;
+  left: 548px;
+  top: 178px; }
+
+.copiright-fotos {
+  width: fit-content;
+  position: relative;
+  top: 185px;
+  left: 540px; }
+
+.section-pie-de-pagina-clases {
+  width: 100%;
+  height: 28.125rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.instagram-clases {
+  width: 3.1rem;
+  height: auto;
+  position: relative;
+  left: 545px;
+  top: 180px; }
+
+.mail-clases {
+  width: 1.9rem;
+  height: auto;
+  position: relative;
+  left: 548px;
+  top: 178px; }
+
+.copiright-clases {
+  width: fit-content;
+  position: relative;
+  top: 185px;
+  left: 540px; }
+
+.section-pie-de-pagina-formulario {
+  width: 100%;
+  height: 28.125rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: "K2D", sans-serif;
+  font-weight: 100;
+  font-style: normal; }
+
+.instagram-formulario {
+  width: 3.1rem;
+  height: auto;
+  position: relative;
+  left: 545px;
+  top: 180px; }
+
+.mail-formulario {
+  width: 1.9rem;
+  height: auto;
+  position: relative;
+  left: 548px;
+  top: 178px; }
+
+.copiright-formulario {
+  width: fit-content;
+  position: relative;
+  top: 185px;
+  left: 540px; }
+
+.carousel {
+  justify-content: center;
+  width: 200px;
+  height: auto;
+  left: 300px; }
