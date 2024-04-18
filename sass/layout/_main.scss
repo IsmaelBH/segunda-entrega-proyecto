@@ -76,7 +76,7 @@
     position: relative;
     left: 180px;
     bottom: 16rem;
-    font-size: map-get($font-size, sm);
+    font-size: map-get($font-size, ss);
 
 }
 
@@ -111,7 +111,7 @@
     height: auto;
     position: relative;
     font-size: map-get($font-size, md);
-    right: 350px;
+    right: 440px;
     bottom: 30px;
 }
 
@@ -182,7 +182,7 @@
     height: auto;
     position: relative;
     font-size: map-get($font-size, md);
-    right: 350px;
+    right: 440px;
     bottom: 10px;
 }
 

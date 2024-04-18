@@ -20,18 +20,19 @@ header {
     list-style: none;
     gap: 20px;
 
-    li a {
-        background-color: transparent;
-        text-decoration: none;
-        color: $color;
-        font-size: map-get($font-size, lg);
+    li {
+        a {
+            background-color: transparent;
+            text-decoration: none;
+            color: $color;
+            font-size: map-get($font-size, lg);
 
-        &:hover {
-            color: rgb(222, 200, 171);
+            &:hover {
+                color: rgb(222, 200, 171);
+            }
         }
     }
 }
-
 
 .navBar-bio {
     position: relative;
@@ -45,17 +46,20 @@ header {
     list-style-type: none;
     gap: 20px;
 
-    li a {
-        background-color: transparent;
-        text-decoration: none;
-        color: white;
-        font-size: map-get($font-size, lg);
+    li {
+        a {
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+            font-size: map-get($font-size, lg);
 
-        &:hover {
-            color: rgb(222, 200, 171);
+            &:hover {
+                color: rgb(222, 200, 171);
+            }
         }
     }
 }
+
 
 .navBar-musica {
     position: relative;
@@ -69,17 +73,20 @@ header {
     list-style-type: none;
     gap: 20px;
 
-    li a {
-        background-color: transparent;
-        text-decoration: none;
-        color: white;
-        font-size: map-get($font-size, lg);
+    li {
+        a {
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+            font-size: map-get($font-size, lg);
 
-        &:hover {
-            color: rgb(222, 200, 171);
+            &:hover {
+                color: rgb(222, 200, 171);
+            }
         }
     }
 }
+
 
 .navBar-video {
     position: relative;
@@ -92,14 +99,16 @@ header {
     list-style-type: none;
     gap: 20px;
 
-    li a {
-        background-color: transparent;
-        text-decoration: none;
-        color: white;
-        font-size: map-get($font-size, lg);
+    li {
+        a {
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+            font-size: map-get($font-size, lg);
 
-        &:hover {
-            color: rgb(222, 200, 171);
+            &:hover {
+                color: rgb(222, 200, 171);
+            }
         }
     }
 }
@@ -115,14 +124,16 @@ header {
     list-style-type: none;
     gap: 20px;
 
-    li a {
-        background-color: transparent;
-        text-decoration: none;
-        color: white;
-        font-size: map-get($font-size, lg);
+    li {
+        a {
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+            font-size: map-get($font-size, lg);
 
-        &:hover {
-            color: rgb(222, 200, 171);
+            &:hover {
+                color: rgb(222, 200, 171);
+            }
         }
     }
 }
@@ -138,14 +149,16 @@ header {
     list-style-type: none;
     gap: 20px;
 
-    li a {
-        background-color: transparent;
-        text-decoration: none;
-        color: white;
-        font-size: map-get($font-size, lg);
+    li {
+        a {
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+            font-size: map-get($font-size, lg);
 
-        &:hover {
-            color: rgb(222, 200, 171);
+            &:hover {
+                color: rgb(222, 200, 171);
+            }
         }
     }
 }
@@ -161,14 +174,16 @@ header {
     list-style-type: none;
     gap: 20px;
 
-    li a {
-        background-color: transparent;
-        text-decoration: none;
-        color: white;
-        font-size: map-get($font-size, lg);
+    li {
+        a {
+            background-color: transparent;
+            text-decoration: none;
+            color: white;
+            font-size: map-get($font-size, lg);
 
-        &:hover {
-            color: rgb(222, 200, 171);
+            &:hover {
+                color: rgb(222, 200, 171);
+            }
         }
     }
 }
