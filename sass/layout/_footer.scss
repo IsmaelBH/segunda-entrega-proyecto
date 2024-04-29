@@ -1,41 +1,53 @@
+footer {
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+
 .section-pie-de-pagina-index {
     width: fit-content;
     height: fit-content;
     position: relative;
-    top: 31.25rem;
-    left: 34.375rem;
     font-family: "K2D", sans-serif;
     font-weight: 100;
     font-style: normal;
+    bottom: 120px;
+
 }
 
 .instagram-index {
     width: 3.1rem;
     height: auto;
     position: relative;
-    top: 1px;
-    left: 5%;
+    top: 136px;
+    left: 530px;
 }
 
 .mail-index {
     width: 1.9rem;
     height: auto;
     position: relative;
-
+    top: 135px;
+    left: 520px;
 }
 
 .copiright-index {
     width: fit-content;
     position: relative;
-    right: .25rem;
+    left: 520px;
+    top: 132px;
+    color: white;
 }
+
 
 .section-pie-de-pagina-bio {
     width: fit-content;
-    height: fit-content;
+    height: auto;
     position: relative;
-    right: 80px;
-    bottom: 100px;
+    right: 125px;
+    top: 740px;
     background-repeat: no-repeat;
     font-family: "K2D", sans-serif;
     font-weight: 100;
@@ -62,182 +74,250 @@
     width: fit-content;
     position: relative;
     top: 300px;
-    left: 650px;
+    left: 653px;
 }
 
 
+// .section-pie-de-pagina-index {
+//     width: fit-content;
+//     height: fit-content;
+//     position: relative;
+//     top: 31.25rem;
+//     left: 34.375rem;
+//     font-family: "K2D", sans-serif;
+//     font-weight: 100;
+//     font-style: normal;
+// }
 
-.section-pie-de-pagina-musica {
-    width: 100%;
-    height: 100vh;
-    font-family: "K2D", sans-serif;
-    font-weight: 100;
-    font-style: normal;
+// .instagram-index {
+//     width: 3.1rem;
+//     height: auto;
+//     position: relative;
+//     top: 1px;
+//     left: 5%;
+// }
 
-}
+// .mail-index {
+//     width: 1.9rem;
+//     height: auto;
+//     position: relative;
 
+// }
 
-.instagram-musica {
-    width: 3.1rem;
-    height: auto;
-    position: relative;
-    left: 545px;
-    top: 180px;
-}
+// .copiright-index {
+//     width: fit-content;
+//     position: relative;
+//     right: .25rem;
+// }
 
-.mail-musica {
-    width: 1.9rem;
-    height: auto;
-    position: relative;
-    left: 548px;
-    top: 178px;
-}
+// .section-pie-de-pagina-bio {
+//     width: fit-content;
+//     height: fit-content;
+//     position: relative;
+//     right: 80px;
+//     bottom: 100px;
+//     background-repeat: no-repeat;
+//     font-family: "K2D", sans-serif;
+//     font-weight: 100;
+//     font-style: normal;
+// }
 
-.copiright-musica {
-    width: fit-content;
-    position: relative;
-    top: 185px;
-    left: 540px;
-}
+// .instagram-bio {
+//     width: 3.1rem;
+//     height: auto;
+//     position: relative;
+//     left: 660px;
+//     top: 300px;
+// }
 
-.section-pie-de-pagina-videos {
+// .mail-bio {
+//     width: 1.9rem;
+//     height: auto;
+//     position: relative;
+//     left: 650px;
+//     top: 299px;
+// }
 
-    width: 100%;
-    height: 28.125rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    font-family: "K2D", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-
-
-.instagram-videos {
-    width: 3.1rem;
-    height: auto;
-    position: relative;
-    left: 545px;
-    top: 180px;
-}
-
-
-.mail-videos {
-    width: 1.9rem;
-    height: auto;
-    position: relative;
-    left: 548px;
-    top: 178px;
-}
-
-.copiright-videos {
-    width: fit-content;
-    position: relative;
-    top: 185px;
-    left: 540px;
-}
-
-.section-pie-de-pagina-fotos {
-    width: 100%;
-    height: 28.125rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    font-family: "K2D", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
-
-.instagram-fotos {
-    width: 3.1rem;
-    height: auto;
-    position: relative;
-    left: 545px;
-    top: 180px;
-}
-
-.mail-fotos {
-    width: 1.9rem;
-    height: auto;
-    position: relative;
-    left: 548px;
-    top: 178px;
-}
-
-.copiright-fotos {
-    width: fit-content;
-    position: relative;
-    top: 185px;
-    left: 540px;
-}
-
-
-.section-pie-de-pagina-clases {
-    width: 100%;
-    height: 28.125rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    font-family: "K2D", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
+// .copiright-bio {
+//     width: fit-content;
+//     position: relative;
+//     top: 300px;
+//     left: 650px;
+// }
 
 
 
+// .section-pie-de-pagina-musica {
+//     width: 100%;
+//     height: 100vh;
+//     font-family: "K2D", sans-serif;
+//     font-weight: 100;
+//     font-style: normal;
 
-.instagram-clases {
-    width: 3.1rem;
-    height: auto;
-    position: relative;
-    left: 545px;
-    top: 180px;
-}
-
-.mail-clases {
-    width: 1.9rem;
-    height: auto;
-    position: relative;
-    left: 548px;
-    top: 178px;
-}
-
-.copiright-clases {
-    width: fit-content;
-    position: relative;
-    top: 185px;
-    left: 540px;
-}
-
-.section-pie-de-pagina-formulario {
-    width: 100%;
-    height: 28.125rem;
-    background-size: contain;
-    background-repeat: no-repeat;
-    font-family: "K2D", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-}
+// }
 
 
+// .instagram-musica {
+//     width: 3.1rem;
+//     height: auto;
+//     position: relative;
+//     left: 545px;
+//     top: 180px;
+// }
 
-.instagram-formulario {
-    width: 3.1rem;
-    height: auto;
-    position: relative;
-    left: 545px;
-    top: 180px;
-}
+// .mail-musica {
+//     width: 1.9rem;
+//     height: auto;
+//     position: relative;
+//     left: 548px;
+//     top: 178px;
+// }
 
-.mail-formulario {
-    width: 1.9rem;
-    height: auto;
-    position: relative;
-    left: 548px;
-    top: 178px;
-}
+// .copiright-musica {
+//     width: fit-content;
+//     position: relative;
+//     top: 185px;
+//     left: 540px;
+// }
 
-.copiright-formulario {
-    width: fit-content;
-    position: relative;
-    top: 185px;
-    left: 540px;
-}
+// .section-pie-de-pagina-videos {
+
+//     width: 100%;
+//     height: 28.125rem;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     font-family: "K2D", sans-serif;
+//     font-weight: 100;
+//     font-style: normal;
+// }
+
+
+
+// .instagram-videos {
+//     width: 3.1rem;
+//     height: auto;
+//     position: relative;
+//     left: 545px;
+//     top: 180px;
+// }
+
+
+// .mail-videos {
+//     width: 1.9rem;
+//     height: auto;
+//     position: relative;
+//     left: 548px;
+//     top: 178px;
+// }
+
+// .copiright-videos {
+//     width: fit-content;
+//     position: relative;
+//     top: 185px;
+//     left: 540px;
+// }
+
+// .section-pie-de-pagina-fotos {
+//     width: 100%;
+//     height: 28.125rem;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     font-family: "K2D", sans-serif;
+//     font-weight: 100;
+//     font-style: normal;
+// }
+
+// .instagram-fotos {
+//     width: 3.1rem;
+//     height: auto;
+//     position: relative;
+//     left: 545px;
+//     top: 180px;
+// }
+
+// .mail-fotos {
+//     width: 1.9rem;
+//     height: auto;
+//     position: relative;
+//     left: 548px;
+//     top: 178px;
+// }
+
+// .copiright-fotos {
+//     width: fit-content;
+//     position: relative;
+//     top: 185px;
+//     left: 540px;
+// }
+
+
+// .section-pie-de-pagina-clases {
+//     width: 100%;
+//     height: 28.125rem;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     font-family: "K2D", sans-serif;
+//     font-weight: 100;
+//     font-style: normal;
+// }
+
+
+
+
+// .instagram-clases {
+//     width: 3.1rem;
+//     height: auto;
+//     position: relative;
+//     left: 545px;
+//     top: 180px;
+// }
+
+// .mail-clases {
+//     width: 1.9rem;
+//     height: auto;
+//     position: relative;
+//     left: 548px;
+//     top: 178px;
+// }
+
+// .copiright-clases {
+//     width: fit-content;
+//     position: relative;
+//     top: 185px;
+//     left: 540px;
+// }
+
+// .section-pie-de-pagina-formulario {
+//     width: 100%;
+//     height: 28.125rem;
+//     background-size: contain;
+//     background-repeat: no-repeat;
+//     font-family: "K2D", sans-serif;
+//     font-weight: 100;
+//     font-style: normal;
+// }
+
+
+
+// .instagram-formulario {
+//     width: 3.1rem;
+//     height: auto;
+//     position: relative;
+//     left: 545px;
+//     top: 180px;
+// }
+
+// .mail-formulario {
+//     width: 1.9rem;
+//     height: auto;
+//     position: relative;
+//     left: 548px;
+//     top: 178px;
+// }
+
+// .copiright-formulario {
+//     width: fit-content;
+//     position: relative;
+//     top: 185px;
+//     left: 540px;
+// }

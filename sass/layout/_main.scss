@@ -1,228 +1,266 @@
 .logo-index {
-    position: relative;
-    background-color: transparent;
-    left: 30px;
-    top: 40px;
+    position: absolute;
+    width: 120px;
+    bottom: 450px;
+    left: 150px;
 }
 
 .logo-bio {
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    background-color: transparent;
-    right: 980px;
-    bottom: 13.75rem;
+    position: absolute;
+    width: 120px;
+    bottom: 297px;
+    right: 342px;
+
 }
 
-.logo-musica {
-    position: relative;
+.section-principal-bio,
+p {
     width: fit-content;
-    height: fit-content;
-    background-color: transparent;
-    right: 680px;
-    bottom: 280px;
-}
-
-.logo-videos {
     position: relative;
-    width: fit-content;
-    height: fit-content;
-    background-color: transparent;
-    right: 680px;
-    bottom: 240px;
-}
-
-.logo-fotos {
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    background-color: transparent;
-    right: 680px;
-    bottom: 240px;
-}
-
-
-.logo-clases {
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    background-color: transparent;
-    right: 980px;
-    bottom: 240px;
-}
-
-.logo-formulario {
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    background-color: transparent;
-    right: 980px;
-    top: 80px;
-}
-
-
-
-.section-principal-bio {
-    position: relative;
-    bottom: 12.25rem;
-    left: 480px;
-    margin: 80px;
-    font-size: map-get($font-size, md);
+    font-size: map-get($font-size, ss);
+    color: white;
+    align-items: center;
+    left: 580px;
+    bottom: 120px;
 }
 
 .texto-bio {
     width: 100%;
     height: auto;
     position: relative;
-    left: 180px;
-    bottom: 16rem;
     font-size: map-get($font-size, ss);
-
-}
-
-.section-principal-musica {
-    position: relative;
-    width: 100%;
-    height: auto;
-    bottom: 50px;
-
-    iframe {
-        width: 30%;
-        height: 160px;
-        position: relative;
-        top: 1px;
-        right: 0px;
-    }
-
-    p {
-        font-family: "K2D", sans-serif;
-        font-weight: 100;
-        font-style: normal;
-        width: 40%;
-        height: 180px;
-        position: relative;
-        top: 1px;
-        right: 0px;
-    }
-}
-
-.texto-musica {
-    width: 100%;
-    height: auto;
-    position: relative;
-    font-size: map-get($font-size, md);
-    right: 440px;
-    bottom: 30px;
-}
-
-
-.grid-musica {
-    bottom: 600px;
-    display: grid;
-    margin: 40px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 40px;
-
-}
-
-.item-musica {
-    overflow: hidden;
-    border-radius: 50px;
-}
-
-.item:hover {
-    opacity: 0.6;
-}
-
-.grid-musica iframe {
-    width: 100%;
-    height: 360px;
-    object-fit: cover;
-    display: block;
-}
-
-.texto-videos {
-    width: 100%;
-    height: auto;
-    position: relative;
-    font-size: map-get($font-size, md);
-    right: 350px;
-    bottom: 10px;
+    right: 380px;
+    top: 40px;
 
 }
 
 
-.grid-videos {
-    display: grid;
-    margin: 40px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 40px;
-}
 
-.item-videos {
-    overflow: hidden;
-    border-radius: 50px;
-}
+// .logo-index {
+//     position: relative;
+//     background-color: transparent;
+//     left: 30px;
+//     top: 40px;
+// }
 
-.item-videos:hover {
-    opacity: 0.6;
-}
+// .logo-bio {
+//     position: relative;
+//     width: fit-content;
+//     height: fit-content;
+//     background-color: transparent;
+//     right: 980px;
+//     bottom: 13.75rem;
+// }
 
-.grid-videos iframe {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    display: block;
-}
+// .logo-musica {
+//     position: relative;
+//     width: fit-content;
+//     height: fit-content;
+//     background-color: transparent;
+//     right: 680px;
+//     bottom: 280px;
+// }
 
-.texto-fotos {
-    width: 100%;
-    height: auto;
-    position: relative;
-    font-size: map-get($font-size, md);
-    right: 440px;
-    bottom: 10px;
-}
+// .logo-videos {
+//     position: relative;
+//     width: fit-content;
+//     height: fit-content;
+//     background-color: transparent;
+//     right: 680px;
+//     bottom: 240px;
+// }
 
-
-.texto-por-clases {
-    position: relative;
-    bottom: 100px;
-    left: 560px;
-    font-size: map-get($font-size, md);
-}
-
-.boton {
-    background-color: rgba(255, 0, 0, 0.975);
-    font-size: 40px;
-    border: 8px solid red;
-    border-radius: 20px;
-    color: white;
-    font-family: "K2D", sans-serif;
-    position: relative;
-    left: 460px;
-    bottom: 60px;
-}
+// .logo-fotos {
+//     position: relative;
+//     width: fit-content;
+//     height: fit-content;
+//     background-color: transparent;
+//     right: 680px;
+//     bottom: 240px;
+// }
 
 
+// .logo-clases {
+//     position: relative;
+//     width: fit-content;
+//     height: fit-content;
+//     background-color: transparent;
+//     right: 980px;
+//     bottom: 240px;
+// }
 
-.section-formulario {
-    color: white;
-    position: relative;
-    left: 520px;
-    top: 80px;
-}
+// .logo-formulario {
+//     position: relative;
+//     width: fit-content;
+//     height: fit-content;
+//     background-color: transparent;
+//     right: 980px;
+//     top: 80px;
+// }
 
-.section-formulario input {
-    color: black;
-}
 
-.section-formulario button {
-    color: black;
-}
 
-.section-formulario select {
-    color: black;
-}
+// .section-principal-bio {
+//     position: relative;
+//     bottom: 12.25rem;
+//     left: 480px;
+//     margin: 80px;
+//     font-size: map-get($font-size, md);
+// }
+
+// .texto-bio {
+//     width: 100%;
+//     height: auto;
+//     position: relative;
+//     left: 180px;
+//     bottom: 16rem;
+//     font-size: map-get($font-size, ss);
+
+// }
+
+// .section-principal-musica {
+//     position: relative;
+//     width: 100%;
+//     height: auto;
+//     bottom: 50px;
+
+//     iframe {
+//         width: 30%;
+//         height: 160px;
+//         position: relative;
+//         top: 1px;
+//         right: 0px;
+//     }
+
+//     p {
+//         font-family: "K2D", sans-serif;
+//         font-weight: 100;
+//         font-style: normal;
+//         width: 40%;
+//         height: 180px;
+//         position: relative;
+//         top: 1px;
+//         right: 0px;
+//     }
+// }
+
+// .texto-musica {
+//     width: 100%;
+//     height: auto;
+//     position: relative;
+//     font-size: map-get($font-size, md);
+//     right: 440px;
+//     bottom: 30px;
+// }
+
+
+// .grid-musica {
+//     bottom: 600px;
+//     display: grid;
+//     margin: 40px;
+//     grid-template-columns: repeat(2, 1fr);
+//     grid-template-rows: repeat(3, 1fr);
+//     gap: 40px;
+
+// }
+
+// .item-musica {
+//     overflow: hidden;
+//     border-radius: 50px;
+// }
+
+// .item:hover {
+//     opacity: 0.6;
+// }
+
+// .grid-musica iframe {
+//     width: 100%;
+//     height: 360px;
+//     object-fit: cover;
+//     display: block;
+// }
+
+// .texto-videos {
+//     width: 100%;
+//     height: auto;
+//     position: relative;
+//     font-size: map-get($font-size, md);
+//     right: 350px;
+//     bottom: 10px;
+
+// }
+
+
+// .grid-videos {
+//     display: grid;
+//     margin: 40px;
+//     grid-template-columns: repeat(2, 1fr);
+//     grid-template-rows: repeat(3, 1fr);
+//     gap: 40px;
+// }
+
+// .item-videos {
+//     overflow: hidden;
+//     border-radius: 50px;
+// }
+
+// .item-videos:hover {
+//     opacity: 0.6;
+// }
+
+// .grid-videos iframe {
+//     width: 100%;
+//     height: 300px;
+//     object-fit: cover;
+//     display: block;
+// }
+
+// .texto-fotos {
+//     width: 100%;
+//     height: auto;
+//     position: relative;
+//     font-size: map-get($font-size, md);
+//     right: 440px;
+//     bottom: 10px;
+// }
+
+
+// .texto-por-clases {
+//     position: relative;
+//     bottom: 100px;
+//     left: 560px;
+//     font-size: map-get($font-size, md);
+// }
+
+// .boton {
+//     background-color: rgba(255, 0, 0, 0.975);
+//     font-size: 40px;
+//     border: 8px solid red;
+//     border-radius: 20px;
+//     color: white;
+//     font-family: "K2D", sans-serif;
+//     position: relative;
+//     left: 460px;
+//     bottom: 60px;
+// }
+
+
+
+// .section-formulario {
+//     color: white;
+//     position: relative;
+//     left: 520px;
+//     top: 80px;
+// }
+
+// .section-formulario input {
+//     color: black;
+// }
+
+// .section-formulario button {
+//     color: black;
+// }
+
+// .section-formulario select {
+//     color: black;
+// 

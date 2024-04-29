@@ -1,44 +1,73 @@
-@media (max-width: 768px) {
-    .logo-index {
-        position: relative;
-        width: 100px;
+@media (min-width:768px) {
+    .nav {
+        --state-hamburguer: scale(0);
+        --state-menu: translate(0);
     }
 
-    .navBar-index {
-        position: relative;
-        top: 630px;
-        left: 120px;
+    .nav:target {
+        --state-close: scale(0);
     }
 
-    .navBar-index li a {
-        font-size: 20px;
+    .nav__links {
+        padding: 0;
+        background-color: unset;
+        position: unset;
+        gap: 1.5em;
+        grid-auto-flow: column;
+
+        transform: unset;
+
+        grid-column: -2/-1;
+        grid-row: 1/2;
     }
+
+    .nav__link {
+        font-size: 1.5rem;
+        letter-spacing: none;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .nav__link {
+        font-size: 15px;
+    }
+
+    .main-index {
+        position: relative;
+        top: -240px;
+
+        .logo-index {
+            width: 80px;
+
+        }
+    }
+
 
     .section-pie-de-pagina-index {
-        position: relative;
-        top: 350px;
+        left: 300px;
+        top: 40px;
+
+        .instagram-index {
+            width: 35px;
+            left: 40px;
+            top: -4px
+        }
+
+        .mail-index {
+            width: 21px;
+            left: 35px;
+            top: -5px;
+        }
+
+        .copiright-index {
+            font-size: 10px;
+            left: 40px;
+            top: -5px;
+        }
     }
 
-    .instagram-index {
-        position: relative;
-        width: 35px;
-        top: 231px;
-        left: 235px;
-    }
 
-    .mail-index {
-        position: relative;
-        width: 20px;
-        top: 230px;
-        left: 230px;
-    }
-
-    .copiright-index {
-        position: relative;
-        top: 230px;
-        left: 225px;
-        font-size: 12px;
-    }
 
     .logo-bio {
         position: relative;
@@ -93,4 +122,103 @@
         bottom: 100px;
         left: 445px;
     }
+
 }
+
+
+// @media (max-width: 768px) {
+//     .logo-index {
+//         position: relative;
+//         width: 100px;
+//     }
+
+//     .navBar-index {
+//         position: relative;
+//         top: 630px;
+//         left: 120px;
+//     }
+
+//     .navBar-index li a {
+//         font-size: 20px;
+//     }
+
+//     .section-pie-de-pagina-index {
+//         position: relative;
+//         top: 350px;
+//     }
+
+//     .instagram-index {
+//         position: relative;
+//         width: 35px;
+//         top: 231px;
+//         left: 235px;
+//     }
+
+//     .mail-index {
+//         position: relative;
+//         width: 20px;
+//         top: 230px;
+//         left: 230px;
+//     }
+
+//     .copiright-index {
+//         position: relative;
+//         top: 230px;
+//         left: 225px;
+//         font-size: 12px;
+//     }
+
+//     .logo-bio {
+//         position: relative;
+//         width: 100%;
+//         height: auto;
+//         right: 520px;
+//         top: -80px;
+//     }
+
+//     .navBar-bio {
+//         position: relative;
+
+//         left: 120px;
+//     }
+
+//     .navBar-bio li a {
+//         font-size: 20px;
+//     }
+
+//     .texto-bio {
+//         position: relative;
+//         top: 40px;
+//         right: 530px;
+//         font-size: 30px;
+//     }
+
+//     .section-principal-bio {
+//         position: relative;
+//         margin: 40px;
+//         font-size: 15px;
+//     }
+
+//     .section-pie-de-pagina-bio {
+//         position: relative;
+
+//     }
+
+//     .instagram-bio {
+//         position: relative;
+//         bottom: 510px;
+//         left: 450px;
+//     }
+
+//     .mail-bio {
+//         position: relative;
+//         bottom: 111px;
+//         left: 450px;
+//     }
+
+//     .copiright-bio {
+//         position: relative;
+//         bottom: 100px;
+//         left: 445px;
+//     }
+// }

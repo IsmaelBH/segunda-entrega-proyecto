@@ -1,98 +1,114 @@
 @media (max-width: 1024px) {
 
-    .logo-index {
-        position: relative;
-        width: 150px;
-    }
+    .main-index {
+        position: absolute;
+        bottom: 800px;
 
-    .navBar-index {
-        position: relative;
-        top: 530px;
-        left: 150px;
-    }
-
-    .navBar-index li a {
-        font-size: 30px;
+        .logo-index {
+            position: relative;
+            left: 50px;
+            top: 280px;
+        }
     }
 
     .section-pie-de-pagina-index {
-        position: relative;
-        top: 350px;
-        left: 100px;
-    }
-
-    .instagram-index {
-        position: relative;
-        top: 160px;
-        left: 350px;
-    }
-
-    .mail-index {
-        position: relative;
-        top: 159px;
-        left: 350px;
-    }
-
-    .copiright-index {
-        position: relative;
-        top: 160px;
-        left: 345px;
-    }
-
-    .logo-bio {
-        position: relative;
-        width: 150px;
-        top: -50px;
-        right: 580px;
-    }
-
-    .navBar-bio {
-        position: relative;
-
-        left: 180px;
-    }
-
-    .navBar-bio li a {
-        font-size: 30px;
-    }
-
-    .texto-bio {
-        position: relative;
-        top: 120px;
-        right: 560px;
-    }
-
-    .section-principal-bio {
-        position: relative;
-        top: -150px;
-
-    }
-
-    .section-pie-de-pagina-bio {
-        position: relative;
-        top: -320px;
-        left: 10px;
-    }
-
-    .instagram-bio {
-        position: relative;
-        top: 150px;
-        left: 450px;
-    }
-
-    .mail-bio {
-        position: relative;
-        top: 150px;
-        left: 450px;
-    }
-
-    .copiright-bio {
-        position: relative;
-        top: 150px;
-        left: 445px;
-    }
-
-    .portada-bio {
-        width: 100%;
+        right: 70px;
     }
 }
+
+//     .logo-index {
+//         position: relative;
+//         width: 150px;
+//     }
+
+//     .navBar-index {
+//         position: relative;
+//         top: 530px;
+//         left: 150px;
+//     }
+
+//     .navBar-index li a {
+//         font-size: 30px;
+//     }
+
+//     .section-pie-de-pagina-index {
+//         position: relative;
+//         top: 350px;
+//         left: 100px;
+//     }
+
+//     .instagram-index {
+//         position: relative;
+//         top: 160px;
+//         left: 350px;
+//     }
+
+//     .mail-index {
+//         position: relative;
+//         top: 159px;
+//         left: 350px;
+//     }
+
+//     .copiright-index {
+//         position: relative;
+//         top: 160px;
+//         left: 345px;
+//     }
+
+//     .logo-bio {
+//         position: relative;
+//         width: 150px;
+//         top: -50px;
+//         right: 580px;
+//     }
+
+//     .navBar-bio {
+//         position: relative;
+
+//         left: 180px;
+//     }
+
+//     .navBar-bio li a {
+//         font-size: 30px;
+//     }
+
+//     .texto-bio {
+//         position: relative;
+//         top: 120px;
+//         right: 560px;
+//     }
+
+//     .section-principal-bio {
+//         position: relative;
+//         top: -150px;
+
+//     }
+
+//     .section-pie-de-pagina-bio {
+//         position: relative;
+//         top: -320px;
+//         left: 10px;
+//     }
+
+//     .instagram-bio {
+//         position: relative;
+//         top: 150px;
+//         left: 450px;
+//     }
+
+//     .mail-bio {
+//         position: relative;
+//         top: 150px;
+//         left: 450px;
+//     }
+
+//     .copiright-bio {
+//         position: relative;
+//         top: 150px;
+//         left: 445px;
+//     }
+
+//     .portada-bio {
+//         width: 100%;
+//     }
+// }
