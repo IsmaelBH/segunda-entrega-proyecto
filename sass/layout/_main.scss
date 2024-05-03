@@ -1,249 +1,128 @@
-.logo-index {
-    position: absolute;
-    width: 120px;
-    bottom: 450px;
-    left: 150px;
-}
-
-.logo-bio {
-    position: absolute;
-    width: 120px;
-    bottom: 297px;
-    right: 342px;
-
-}
-
-.section-principal-bio,
-p {
+.section-principal-bio {
     width: fit-content;
     position: relative;
-    font-size: map-get($font-size, ss);
+    font-size: map-get($font-size, lg);
+    font-family: "K2D", sans-serif;
     color: white;
     align-items: center;
-    left: 580px;
-    bottom: 120px;
+    left: 890px;
+    bottom: 0;
+    top: 35px;
 }
 
 .texto-bio {
     width: 100%;
-    height: auto;
     position: relative;
-    font-size: map-get($font-size, ss);
-    right: 380px;
-    top: 40px;
+    color: white;
+    font-size: map-get($font-size, md);
+    font-family: "K2D", sans-serif;
+    bottom: 0;
+    top: 0;
+    left: 210px;
+    margin: 80px;
+
 
 }
 
 
+.texto-musica {
+    width: fit-content;
+    position: relative;
+    font-size: map-get($font-size, xxl);
+    font-family: "K2D", sans-serif;
+    color: white;
+    align-items: center;
+    left: 840px;
+    bottom: 0;
+    top: 50px;
+}
 
-// .logo-index {
-//     position: relative;
-//     background-color: transparent;
-//     left: 30px;
-//     top: 40px;
-// }
+.texto-videos {
+    width: fit-content;
+    position: relative;
+    font-size: map-get($font-size, xxl);
+    font-family: "K2D", sans-serif;
+    color: white;
+    align-items: center;
+    left: 840px;
+    bottom: 0;
+    top: 50px;
+}
 
-// .logo-bio {
-//     position: relative;
-//     width: fit-content;
-//     height: fit-content;
-//     background-color: transparent;
-//     right: 980px;
-//     bottom: 13.75rem;
-// }
+.texto-fotos {
+    width: fit-content;
+    position: relative;
+    font-size: map-get($font-size, xxl);
+    font-family: "K2D", sans-serif;
+    color: white;
+    align-items: center;
+    left: 880px;
+    bottom: 0;
+    top: -20px;
+}
 
-// .logo-musica {
-//     position: relative;
-//     width: fit-content;
-//     height: fit-content;
-//     background-color: transparent;
-//     right: 680px;
-//     bottom: 280px;
-// }
-
-// .logo-videos {
-//     position: relative;
-//     width: fit-content;
-//     height: fit-content;
-//     background-color: transparent;
-//     right: 680px;
-//     bottom: 240px;
-// }
-
-// .logo-fotos {
-//     position: relative;
-//     width: fit-content;
-//     height: fit-content;
-//     background-color: transparent;
-//     right: 680px;
-//     bottom: 240px;
-// }
-
-
-// .logo-clases {
-//     position: relative;
-//     width: fit-content;
-//     height: fit-content;
-//     background-color: transparent;
-//     right: 980px;
-//     bottom: 240px;
-// }
-
-// .logo-formulario {
-//     position: relative;
-//     width: fit-content;
-//     height: fit-content;
-//     background-color: transparent;
-//     right: 980px;
-//     top: 80px;
-// }
+.texto-formulario {
+    width: fit-content;
+    position: relative;
+    font-size: map-get($font-size, xxl);
+    font-family: "K2D", sans-serif;
+    color: white;
+    align-items: center;
+    left: 750px;
+    bottom: 0;
+    top: 20px;
+}
 
 
+.section-formulario {
 
-// .section-principal-bio {
-//     position: relative;
-//     bottom: 12.25rem;
-//     left: 480px;
-//     margin: 80px;
-//     font-size: map-get($font-size, md);
-// }
-
-// .texto-bio {
-//     width: 100%;
-//     height: auto;
-//     position: relative;
-//     left: 180px;
-//     bottom: 16rem;
-//     font-size: map-get($font-size, ss);
-
-// }
-
-// .section-principal-musica {
-//     position: relative;
-//     width: 100%;
-//     height: auto;
-//     bottom: 50px;
-
-//     iframe {
-//         width: 30%;
-//         height: 160px;
-//         position: relative;
-//         top: 1px;
-//         right: 0px;
-//     }
-
-//     p {
-//         font-family: "K2D", sans-serif;
-//         font-weight: 100;
-//         font-style: normal;
-//         width: 40%;
-//         height: 180px;
-//         position: relative;
-//         top: 1px;
-//         right: 0px;
-//     }
-// }
-
-// .texto-musica {
-//     width: 100%;
-//     height: auto;
-//     position: relative;
-//     font-size: map-get($font-size, md);
-//     right: 440px;
-//     bottom: 30px;
-// }
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    left: 420px;
+    top: 50px;
+}
 
 
-// .grid-musica {
-//     bottom: 600px;
-//     display: grid;
-//     margin: 40px;
-//     grid-template-columns: repeat(2, 1fr);
-//     grid-template-rows: repeat(3, 1fr);
-//     gap: 40px;
+label,
+input,
+select,
+button {
 
-// }
+    display: block;
+    margin-bottom: 10px;
+    color: white;
+}
 
-// .item-musica {
-//     overflow: hidden;
-//     border-radius: 50px;
-// }
+input,
+select,
+button {
 
-// .item:hover {
-//     opacity: 0.6;
-// }
+    width: 50%;
+    padding: 8px;
+    border: 1px solid #fffafa;
+    border-radius: 4px;
 
-// .grid-musica iframe {
-//     width: 100%;
-//     height: 360px;
-//     object-fit: cover;
-//     display: block;
-// }
+}
 
-// .texto-videos {
-//     width: 100%;
-//     height: auto;
-//     position: relative;
-//     font-size: map-get($font-size, md);
-//     right: 350px;
-//     bottom: 10px;
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
 
-// }
+button:hover {
+    background-color: #0056b3;
+}
 
-
-// .grid-videos {
-//     display: grid;
-//     margin: 40px;
-//     grid-template-columns: repeat(2, 1fr);
-//     grid-template-rows: repeat(3, 1fr);
-//     gap: 40px;
-// }
-
-// .item-videos {
-//     overflow: hidden;
-//     border-radius: 50px;
-// }
-
-// .item-videos:hover {
-//     opacity: 0.6;
-// }
-
-// .grid-videos iframe {
-//     width: 100%;
-//     height: 300px;
-//     object-fit: cover;
-//     display: block;
-// }
-
-// .texto-fotos {
-//     width: 100%;
-//     height: auto;
-//     position: relative;
-//     font-size: map-get($font-size, md);
-//     right: 440px;
-//     bottom: 10px;
-// }
-
-
-// .texto-por-clases {
-//     position: relative;
-//     bottom: 100px;
-//     left: 560px;
-//     font-size: map-get($font-size, md);
-// }
-
-// .boton {
-//     background-color: rgba(255, 0, 0, 0.975);
-//     font-size: 40px;
-//     border: 8px solid red;
-//     border-radius: 20px;
-//     color: white;
-//     font-family: "K2D", sans-serif;
-//     position: relative;
-//     left: 460px;
-//     bottom: 60px;
-// }
-
+.texto-formulario {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
 
 
 // .section-formulario {
@@ -263,4 +142,143 @@ p {
 
 // .section-formulario select {
 //     color: black;
-// 
+
+// }
+
+.section-principal-musica {
+
+
+    .grid-musica {
+
+        display: grid;
+        margin: 280px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 40px;
+
+    }
+
+    .item-musica {
+        overflow: hidden;
+        border-radius: 50px;
+        position: relative;
+        width: 80%;
+        height: auto;
+        bottom: 150px;
+
+
+        iframe {
+            width: 90%;
+            height: 360px;
+            position: relative;
+            top: 0px;
+            right: 0px;
+
+        }
+
+        p {
+            font-family: "K2D", sans-serif;
+            font-weight: 100;
+            font-style: normal;
+            width: 40%;
+            height: 180px;
+            position: relative;
+            top: 1px;
+            right: 0px;
+        }
+    }
+
+    .item:hover {
+        opacity: 0.6;
+    }
+
+    .grid-musica iframe {
+        width: 100%;
+        height: 360px;
+        object-fit: cover;
+        display: block;
+    }
+
+}
+
+.section-principal-videos {
+
+    .grid-videos {
+        display: grid;
+        margin: 100px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        gap: 40px;
+
+    }
+
+    .item-videos {
+        @extend .item-musica;
+
+    }
+
+    .item:hover {
+        opacity: 0.6;
+    }
+
+    .grid-videos iframe {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        display: block;
+    }
+}
+
+.section-clases {
+    .boton {
+        background-color: rgba(255, 0, 0, 0.975);
+        font-size: 40px;
+        border: 50px solid red;
+        border-radius: 40px;
+        color: white;
+        font-family: "K2D", sans-serif;
+        position: relative;
+        left: 760px;
+        bottom: 0px;
+        top: 150px;
+    }
+
+}
+
+.texto-por-clases {
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    font-size: map-get($font-size, md);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+// .texto-videos {
+//     width: 100%;
+//     height: auto;
+//     position: relative;
+//     font-size: map-get($font-size, md);
+//     right: 350px;
+//     bottom: 10px;
+
+// }
+
+
+
+// .texto-fotos {
+//     width: 100%;
+//     height: auto;
+//     position: relative;
+//     font-size: map-get($font-size, md);
+//     right: 440px;
+//     bottom: 10px;
+// }

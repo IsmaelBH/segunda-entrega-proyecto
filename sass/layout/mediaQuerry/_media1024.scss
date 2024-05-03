@@ -1,114 +1,287 @@
 @media (max-width: 1024px) {
 
-    .main-index {
-        position: absolute;
-        bottom: 800px;
 
-        .logo-index {
-            position: relative;
-            left: 50px;
-            top: 280px;
+    .texto-bio {
+        width: 70%;
+        position: relative;
+        font-size: map-get($font-size, sm);
+        top: -40px;
+        left: 70px;
+    }
+
+    .texto-musica {
+        font-size: map-get($font-size, md);
+        left: 460px;
+
+    }
+
+    .texto-videos {
+        font-size: map-get($font-size, md);
+        left: 450px;
+    }
+
+    .texto-fotos {
+        font-size: map-get($font-size, md);
+        top: -130px;
+        left: 460px;
+    }
+
+    main section {
+
+        .grid-musica {
+
+            .item-musica {
+                height: 400px;
+                width: 400px;
+                right: 190px;
+            }
         }
     }
 
-    .section-pie-de-pagina-index {
-        right: 70px;
+    .section-principal-bio {
+        left: 490px;
+        font-size: map-get($font-size, sm);
+    }
+
+    .nav__link {
+        font-size: map-get($font-size, lg);
+        top: 30px;
+        left: 0px;
+        right: 120px;
+    }
+
+    .nav__link__home {
+        width: 100px;
+        top: 10px;
+        left: 0px;
+        right: 40px;
+    }
+
+    .carousel {
+        left: 257px;
+        bottom: 80px;
+    }
+
+    .section-clases {
+        .boton {
+            top: 100px;
+            left: 360px;
+        }
+    }
+
+    //index
+    .hero {
+
+        footer {
+            bottom: 140px;
+
+            .section-pie-de-pagina-index {
+                bottom: 0px;
+                left: 0;
+
+                .instagram-index {
+                    left: 460px;
+                    top: 300px;
+                }
+
+                .mail-index {
+                    left: 450px;
+                    top: 299px
+                }
+
+                .copiright-index {
+                    top: 300px;
+                    left: 453px;
+
+                }
+            }
+        }
+    }
+
+    // bio
+    footer {
+        .section-pie-de-pagina-bio {
+            left: 450px;
+            top: 920px;
+
+
+            .instagram-bio {
+
+                left: 10px;
+                top: 0px;
+            }
+
+            .mail-bio {
+
+                left: 0px;
+                top: 0px
+            }
+
+            .copiright-bio {
+
+                top: 0px;
+                left: 0px;
+            }
+        }
+
+    }
+
+    //musica
+
+    footer {
+        .section-pie-de-pagina-musica {
+
+            left: -190px;
+            top: 580px;
+
+
+            .instagram-musica {
+                left: 660px;
+                top: 300px;
+            }
+
+            .mail-musica {
+                left: 650px;
+                top: 299px
+            }
+
+            .copiright-musica {
+                top: 300px;
+                left: 653px;
+
+            }
+        }
+    }
+
+    //videos
+    footer {
+        .section-pie-de-pagina-videos {
+
+            left: -220px;
+            top: 780px;
+
+
+            .instagram-videos {
+                left: 660px;
+                top: 300px;
+            }
+
+            .mail-videos {
+                left: 650px;
+                top: 299px
+            }
+
+            .copiright-videos {
+                top: 300px;
+                left: 653px;
+
+            }
+        }
+    }
+
+    //fotos
+    footer {
+        .section-pie-de-pagina-fotos {
+
+            left: -320px;
+            top: 0px;
+
+
+            .instagram-fotos {
+                left: 660px;
+                top: 300px;
+            }
+
+            .mail-fotos {
+                left: 650px;
+                top: 299px
+            }
+
+            .copiright-fotos {
+                top: 300px;
+                left: 653px;
+
+            }
+        }
+    }
+
+    //clases
+
+    .hero-clases {
+        background-position-y: -10px;
+    }
+
+    main {
+        .section-clases {
+            .boton {
+                top: 40px;
+            }
+        }
+    }
+
+    footer {
+        .section-pie-de-pagina-clases {
+
+            left: -190px;
+            top: -300px;
+
+
+            .instagram-clases {
+                left: 660px;
+                top: 300px;
+            }
+
+            .mail-clases {
+                left: 650px;
+                top: 299px
+            }
+
+            .copiright-clases {
+                top: 300px;
+                left: 653px;
+
+            }
+        }
+    }
+
+    main {
+        .texto-formulario {
+            left: 350px;
+            top: -100px;
+        }
+
+
+        .section-formulario {
+            left: 220px;
+            top: -50px;
+        }
     }
 }
 
-//     .logo-index {
-//         position: relative;
-//         width: 150px;
-//     }
 
-//     .navBar-index {
-//         position: relative;
-//         top: 530px;
-//         left: 150px;
-//     }
 
-//     .navBar-index li a {
-//         font-size: 30px;
-//     }
+//formulario
+footer {
+    .section-pie-de-pagina-formulario {
 
-//     .section-pie-de-pagina-index {
-//         position: relative;
-//         top: 350px;
-//         left: 100px;
-//     }
+        left: -190px;
+        top: 80px;
 
-//     .instagram-index {
-//         position: relative;
-//         top: 160px;
-//         left: 350px;
-//     }
 
-//     .mail-index {
-//         position: relative;
-//         top: 159px;
-//         left: 350px;
-//     }
+        .instagram-formulario {
+            left: 660px;
+            top: 300px;
+        }
 
-//     .copiright-index {
-//         position: relative;
-//         top: 160px;
-//         left: 345px;
-//     }
+        .mail-formulario {
+            left: 650px;
+            top: 299px
+        }
 
-//     .logo-bio {
-//         position: relative;
-//         width: 150px;
-//         top: -50px;
-//         right: 580px;
-//     }
+        .copiright-formulario {
+            top: 300px;
+            left: 653px;
 
-//     .navBar-bio {
-//         position: relative;
-
-//         left: 180px;
-//     }
-
-//     .navBar-bio li a {
-//         font-size: 30px;
-//     }
-
-//     .texto-bio {
-//         position: relative;
-//         top: 120px;
-//         right: 560px;
-//     }
-
-//     .section-principal-bio {
-//         position: relative;
-//         top: -150px;
-
-//     }
-
-//     .section-pie-de-pagina-bio {
-//         position: relative;
-//         top: -320px;
-//         left: 10px;
-//     }
-
-//     .instagram-bio {
-//         position: relative;
-//         top: 150px;
-//         left: 450px;
-//     }
-
-//     .mail-bio {
-//         position: relative;
-//         top: 150px;
-//         left: 450px;
-//     }
-
-//     .copiright-bio {
-//         position: relative;
-//         top: 150px;
-//         left: 445px;
-//     }
-
-//     .portada-bio {
-//         width: 100%;
-//     }
-// }
+        }
+    }
+}

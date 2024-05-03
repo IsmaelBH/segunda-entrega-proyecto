@@ -17,61 +17,87 @@
 
 <body>
     <section>
-        <img class="portada-video" src="../assets/img/foto-videos.png" alt="imagen-videos">
-        <header>
+        <header class="hero-videos">
 
-            <nav>
-                <ul class="navBar-video">
-                    <li><a href="../pages/bio.html">Bio</a></li>
-                    <li><a href="../pages/musica.html">Música</a></li>
-                    <li><a href="../pages/videos.html">Videos</a></li>
-                    <li><a href="../pages/fotos.html">Fotos</a></li>
-                    <li><a href="../pages/clases.html">Clases</a></li>
-                    <li><a href="mailto: ismaelbarbe@gmail.com">Contacto</a></li>
-                    <li><a href="../index.html">Home</a></li>
+            <nav class="nav container" id="nav">
+
+                <ul class="nav__links">
+                    <li class="nav__item__home">
+                        <a href="../index.html"><img src="../assets/img/logo.png" alt=" " class="nav__link__home"></a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../pages/bio.html" class="nav__link">Bio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../pages/musica.html" class="nav__link">Musica</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../pages/videos.html" class="nav__link">Videos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../pages/fotos.html" class="nav__link">Fotos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="../pages/clases.html" class="nav__link">Clases</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="mailto: ismaelbarbe@gmail.com" class="nav__link">Contacto</a>
+                    </li>
+
+
                 </ul>
+
+                <a href="#nav" class="nav__hamburguer">
+                    <img src="../assets/img/logo.png" class="nav__icon">
+                </a>
+
+                <a href="#" class="nav__close">
+                    <img src="../assets/img/close.svg" class="nav__icon__x">
+                </a>
+
             </nav>
-            <a href="../index.html">
-                <img src="../assets/img/logo.svg" alt="logo-ib" class="logo-videos">
-            </a>
-            <h1 class="texto-videos">Videos</h1>
+
         </header>
     </section>
     <main>
-        <div>
-            <section class="grid-videos">
-                <div class="item-videos"><iframe width="560" height="315"
+        <section>
+            <h1 class="texto-videos">Videos</h1>
+        </section>
+        <section class="section-principal-videos">
+            <div class="grid-videos">
+                <div class="item-videos"><iframe style="border-radius:8px"
                         src="https://www.youtube.com/embed/ThDkKlz3Qhg?si=YpjtUBBhJ8i28w8Y" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe></div>
-                <div class="item-videos"><iframe width="560" height="315"
+                <div class="item-videos"><iframe style="border-radius:8px"
                         src="https://www.youtube.com/embed/Or0hDArhmjw?si=4O4bOhrNaSbzqvsl" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe></div>
-                <div class="item-videos"><iframe width="560" height="315"
+                <div class="item-videos"><iframe style="border-radius:8px"
                         src="https://www.youtube.com/embed/23K1GRYMyjk?si=fpdnGuJ7qn_SkYqc" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe></div>
-                <div class="item-videos"><iframe width="560" height="315"
+                <div class="item-videos"><iframe style="border-radius:8px"
                         src="https://www.youtube.com/embed/iylw9nhCX2M?si=ctImo5Vu_mf707wR" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe></div>
-                <div class="item-videos"><iframe width="560" height="315"
+                <div class="item-videos"><iframe style="border-radius:8px"
                         src="https://www.youtube.com/embed/Mtw76MA5xfU?si=PXcaeDxJl7YXNN5D" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen></iframe></div>
-                <div class="item-videos"><iframe width="560" height="315"
+                <div class="item-videos"><iframe style="border-radius:8px"
                         src="https://www.youtube.com/embed/E8S2e0qajLg?si=aK0u3GkkezJ0fba8" title="YouTube video player"
                         frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
-            </section>
-        </div>
+            </div>
+        </section>
+
     </main>
     <footer>
         <section>
