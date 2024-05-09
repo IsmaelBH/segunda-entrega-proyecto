@@ -548,7 +548,7 @@ footer {
       left: 48px;
       bottom: 50px; }
     body .hero footer section .section-pie-de-pagina-index, body .hero-bio footer section .section-pie-de-pagina-index, body .hero-musica footer section .section-pie-de-pagina-index, body .hero-videos footer section .section-pie-de-pagina-index, body .hero-fotos footer section .section-pie-de-pagina-index, body .hero-clases footer section .section-pie-de-pagina-index, body .hero-formulario footer section .section-pie-de-pagina-index {
-      left: -360px;
+      left: -380px;
       top: -80px; }
       body .hero footer section .section-pie-de-pagina-index .instagram-index, body .hero-bio footer section .section-pie-de-pagina-index .instagram-index, body .hero-musica footer section .section-pie-de-pagina-index .instagram-index, body .hero-videos footer section .section-pie-de-pagina-index .instagram-index, body .hero-fotos footer section .section-pie-de-pagina-index .instagram-index, body .hero-clases footer section .section-pie-de-pagina-index .instagram-index, body .hero-formulario footer section .section-pie-de-pagina-index .instagram-index {
         left: 660px;
@@ -561,32 +561,90 @@ footer {
         left: 653px; }
   body .hero-bio {
     width: 100%;
-    height: 500px;
-    background-position-x: -700px; }
-  main .section-principal-bio {
-    position: relative;
-    left: -100px;
-    right: 150px;
-    top: 30px;
-    font-size: 12px; }
-  main section .texto-bio {
+    height: 600px;
+    background-position-x: -850px; }
+  body main .section-principal-bio {
+    left: 200px; }
+  body main section .texto-bio {
     width: 70%;
     position: relative;
-    font-size: 12px;
+    font-size: 20px;
     top: -40px;
     left: 0px; }
-  footer section .section-pie-de-pagina-bio {
-    left: -560px;
-    top: 80px; }
-    footer section .section-pie-de-pagina-bio .instagram-bio {
+  body footer section .section-pie-de-pagina-bio {
+    left: -500px;
+    top: 1700px; }
+    body footer section .section-pie-de-pagina-bio .instagram-bio {
       left: 660px;
       top: 300px; }
-    footer section .section-pie-de-pagina-bio .mail-bio {
+    body footer section .section-pie-de-pagina-bio .mail-bio {
       left: 650px;
       top: 299px; }
-    footer section .section-pie-de-pagina-bio .copiright-bio {
+    body footer section .section-pie-de-pagina-bio .copiright-bio {
       top: 300px;
-      left: 653px; } }
+      left: 653px; }
+  body .hero-musica {
+    width: 100%;
+    height: 600px;
+    background-position-x: -790px; }
+  body main section .texto-musica {
+    left: 180px; }
+  body main .section-principal-musica .grid-musica {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr); }
+  body footer section .section-pie-de-pagina-musica {
+    left: -500px;
+    top: 1350px; }
+  body .hero-videos {
+    width: 100%;
+    height: 600px;
+    background-position-x: -690px; }
+  body main section .texto-videos {
+    left: 180px; }
+  body main .section-principal-videos .grid-videos {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin: 50px; }
+  body footer section .section-pie-de-pagina-videos {
+    left: -500px;
+    top: 2280px; }
+  body .hero-fotos {
+    width: 100%;
+    height: 800px;
+    background-position-x: -1160px; }
+  body main section .texto-fotos {
+    left: 180px; }
+  body main .carousel {
+    width: 100%;
+    height: 400px;
+    left: 120px; }
+  body footer section .section-pie-de-pagina-fotos {
+    left: -500px;
+    top: 180px; }
+  body .hero-clases {
+    width: 100%;
+    height: 600px;
+    background-position-x: -790px; }
+  body main section .section-clases .boton {
+    border: 20px solid red;
+    left: 60px; }
+  body footer section .section-pie-de-pagina-clases {
+    left: -500px;
+    top: -200px; }
+  body .hero-formulario {
+    width: 100%;
+    height: 600px;
+    background-position-x: -820px;
+    background-position-y: 0px; }
+  body main section .texto-formulario {
+    left: 0px;
+    top: 40px; }
+  body main .section-formulario {
+    top: 40px;
+    left: 0px; }
+  body footer section .section-pie-de-pagina-formulario {
+    left: -500px;
+    top: 250px; } }
 
 @media (min-width: 768px) {
   .nav {
@@ -657,6 +715,8 @@ footer {
     footer section .section-pie-de-pagina-bio .copiright-bio {
       top: 0px;
       left: 0px; }
+  main .texto-musica {
+    left: 340px; }
   main .section-principal-musica .grid-musica .item-musica, main .section-principal-musica .grid-musica .section-principal-videos .item-videos, .section-principal-videos main .section-principal-musica .grid-musica .item-videos {
     height: 300px;
     width: 300px;
@@ -674,8 +734,8 @@ footer {
       top: 300px;
       left: 653px; }
   main section .texto-videos {
-    font-size: 30px;
-    left: 330px; }
+    font-size: 25px;
+    left: 340px; }
   footer section .section-pie-de-pagina-videos {
     left: -340px;
     top: 780px; }
@@ -688,25 +748,29 @@ footer {
     footer section .section-pie-de-pagina-videos .copiright-videos {
       top: 300px;
       left: 653px; }
-  footer .section-pie-de-pagina-fotos {
-    left: -220px;
-    top: 150px; }
-    footer .section-pie-de-pagina-fotos .instagram-fotos {
+  main .texto-fotos {
+    left: 360px; }
+  main .carousel {
+    left: 200px; }
+  footer section .section-pie-de-pagina-fotos {
+    left: -330px;
+    top: 0px; }
+    footer section .section-pie-de-pagina-fotos .instagram-fotos {
       left: 660px;
       top: 300px; }
-    footer .section-pie-de-pagina-fotos .mail-fotos {
+    footer section .section-pie-de-pagina-fotos .mail-fotos {
       left: 650px;
       top: 299px; }
-    footer .section-pie-de-pagina-fotos .copiright-fotos {
+    footer section .section-pie-de-pagina-fotos .copiright-fotos {
       top: 300px;
       left: 653px; }
   .hero-clases {
     background-position-y: -10px; }
   main .section-clases .boton {
     top: 40px;
-    left: 200px; }
+    left: 210px; }
   footer section .section-pie-de-pagina-clases {
-    left: -320px;
+    left: -330px;
     top: -300px; }
     footer section .section-pie-de-pagina-clases .instagram-clases {
       left: 660px;
@@ -717,6 +781,10 @@ footer {
     footer section .section-pie-de-pagina-clases .copiright-clases {
       top: 300px;
       left: 653px; }
+  body main section .texto-formulario {
+    left: 270px; }
+  body main .section-formulario {
+    left: 190px; }
   footer section .section-pie-de-pagina-formulario {
     left: -330px;
     top: 80px; }
@@ -849,21 +917,20 @@ footer {
       top: 300px;
       left: 653px; }
   main .texto-formulario {
-    left: 350px;
+    left: 380px;
     top: -100px; }
   main .section-formulario {
-    left: 220px;
-    top: -50px; } }
-
-footer .section-pie-de-pagina-formulario {
-  left: -190px;
-  top: 80px; }
-  footer .section-pie-de-pagina-formulario .instagram-formulario {
-    left: 660px;
-    top: 300px; }
-  footer .section-pie-de-pagina-formulario .mail-formulario {
-    left: 650px;
-    top: 299px; }
-  footer .section-pie-de-pagina-formulario .copiright-formulario {
-    top: 300px;
-    left: 653px; }
+    left: 260px;
+    top: -50px; }
+  footer .section-pie-de-pagina-formulario {
+    left: -200px;
+    top: 0px; }
+    footer .section-pie-de-pagina-formulario .instagram-formulario {
+      left: 660px;
+      top: 300px; }
+    footer .section-pie-de-pagina-formulario .mail-formulario {
+      left: 650px;
+      top: 299px; }
+    footer .section-pie-de-pagina-formulario .copiright-formulario {
+      top: 300px;
+      left: 653px; } }

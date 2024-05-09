@@ -3,9 +3,10 @@
     width: 80%;
     max-width: 1200px;
     overflow: hidden;
-
 }
 
+
+//hero
 .hero {
     width: 100%;
     height: 950px;
@@ -60,6 +61,8 @@
     background-position-y: -160px;
 }
 
+
+//nav
 .nav {
     --state-close: scale(0);
     --state-hamburguer: scale(1);

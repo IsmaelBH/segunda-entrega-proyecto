@@ -24,6 +24,8 @@
 }
 
 @media (max-width:768px) {
+
+    //bio
     main {
         .texto-bio {
             width: 70%;
@@ -58,7 +60,7 @@
         }
     }
 
-
+    //clases
     .section-clases {
         .boton {
             top: 100px;
@@ -129,6 +131,9 @@
 
     //musica
     main {
+        .texto-musica {
+            left: 340px;
+        }
 
 
         .section-principal-musica {
@@ -143,8 +148,6 @@
         }
 
     }
-
-
 
     footer section {
         .section-pie-de-pagina-musica {
@@ -176,8 +179,8 @@
     //videos
     main section {
         .texto-videos {
-            font-size: map-get($font-size, lg);
-            left: 330px;
+            font-size: map-get($font-size, md);
+            left: 340px;
         }
     }
 
@@ -207,12 +210,21 @@
     }
 
     //fotos
+    main {
+        .texto-fotos {
+            left: 360px;
+        }
 
-    footer {
+        .carousel {
+            left: 200px;
+        }
+    }
+
+    footer section {
         .section-pie-de-pagina-fotos {
 
-            left: -220px;
-            top: 150px;
+            left: -330px;
+            top: 0px;
 
 
             .instagram-fotos {
@@ -243,7 +255,7 @@
         .section-clases {
             .boton {
                 top: 40px;
-                left: 200px;
+                left: 210px;
             }
         }
     }
@@ -251,7 +263,7 @@
     footer section {
         .section-pie-de-pagina-clases {
 
-            left: -320px;
+            left: -330px;
             top: -300px;
 
 
@@ -274,6 +286,22 @@
     }
 
     //formulario
+    body {
+        main {
+            section {
+                .texto-formulario {
+                    left: 270px;
+
+                }
+            }
+
+
+            .section-formulario {
+                left: 190px;
+            }
+        }
+    }
+
     footer section {
         .section-pie-de-pagina-formulario {
 

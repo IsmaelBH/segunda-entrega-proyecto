@@ -1,6 +1,6 @@
 @media (max-width: 1024px) {
 
-
+    //bio
     .texto-bio {
         width: 70%;
         position: relative;
@@ -9,23 +9,27 @@
         left: 70px;
     }
 
+    //musica
     .texto-musica {
         font-size: map-get($font-size, md);
         left: 460px;
 
     }
 
+    //videos
     .texto-videos {
         font-size: map-get($font-size, md);
         left: 450px;
     }
 
+    //fotos
     .texto-fotos {
         font-size: map-get($font-size, md);
         top: -130px;
         left: 460px;
     }
 
+    //musica
     main section {
 
         .grid-musica {
@@ -38,11 +42,13 @@
         }
     }
 
+    //bio
     .section-principal-bio {
         left: 490px;
         font-size: map-get($font-size, sm);
     }
 
+    //nav
     .nav__link {
         font-size: map-get($font-size, lg);
         top: 30px;
@@ -57,11 +63,13 @@
         right: 40px;
     }
 
+    //fotos
     .carousel {
         left: 257px;
         bottom: 80px;
     }
 
+    //clases
     .section-clases {
         .boton {
             top: 100px;
@@ -244,44 +252,42 @@
         }
     }
 
+    //formulario
     main {
         .texto-formulario {
-            left: 350px;
+            left: 380px;
             top: -100px;
         }
 
 
         .section-formulario {
-            left: 220px;
+            left: 260px;
             top: -50px;
         }
     }
-}
+
+    footer {
+        .section-pie-de-pagina-formulario {
+
+            left: -200px;
+            top: 0px;
 
 
+            .instagram-formulario {
+                left: 660px;
+                top: 300px;
+            }
 
-//formulario
-footer {
-    .section-pie-de-pagina-formulario {
+            .mail-formulario {
+                left: 650px;
+                top: 299px
+            }
 
-        left: -190px;
-        top: 80px;
+            .copiright-formulario {
+                top: 300px;
+                left: 653px;
 
-
-        .instagram-formulario {
-            left: 660px;
-            top: 300px;
-        }
-
-        .mail-formulario {
-            left: 650px;
-            top: 299px
-        }
-
-        .copiright-formulario {
-            top: 300px;
-            left: 653px;
-
+            }
         }
     }
 }

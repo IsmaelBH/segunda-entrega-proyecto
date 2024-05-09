@@ -1,3 +1,4 @@
+//bio
 .section-principal-bio {
     width: fit-content;
     position: relative;
@@ -24,7 +25,7 @@
 
 }
 
-
+//musica
 .texto-musica {
     width: fit-content;
     position: relative;
@@ -37,6 +38,7 @@
     top: 50px;
 }
 
+//videos
 .texto-videos {
     width: fit-content;
     position: relative;
@@ -49,6 +51,7 @@
     top: 50px;
 }
 
+//fotos
 .texto-fotos {
     width: fit-content;
     position: relative;
@@ -61,6 +64,7 @@
     top: -20px;
 }
 
+//formulario
 .texto-formulario {
     width: fit-content;
     position: relative;
@@ -72,7 +76,6 @@
     bottom: 0;
     top: 20px;
 }
-
 
 .section-formulario {
 
@@ -125,26 +128,7 @@ button:hover {
 }
 
 
-// .section-formulario {
-//     color: white;
-//     position: relative;
-//     left: 520px;
-//     top: 80px;
-// }
-
-// .section-formulario input {
-//     color: black;
-// }
-
-// .section-formulario button {
-//     color: black;
-// }
-
-// .section-formulario select {
-//     color: black;
-
-// }
-
+//musica
 .section-principal-musica {
 
 
@@ -201,6 +185,7 @@ button:hover {
 
 }
 
+//videos
 .section-principal-videos {
 
     .grid-videos {
@@ -229,6 +214,7 @@ button:hover {
     }
 }
 
+//clases
 .section-clases {
     .boton {
         background-color: rgba(255, 0, 0, 0.975);
@@ -252,33 +238,3 @@ button:hover {
     font-size: map-get($font-size, md);
     color: white;
 }
-
-
-
-
-
-
-
-
-
-
-// .texto-videos {
-//     width: 100%;
-//     height: auto;
-//     position: relative;
-//     font-size: map-get($font-size, md);
-//     right: 350px;
-//     bottom: 10px;
-
-// }
-
-
-
-// .texto-fotos {
-//     width: 100%;
-//     height: auto;
-//     position: relative;
-//     font-size: map-get($font-size, md);
-//     right: 440px;
-//     bottom: 10px;
-// }
